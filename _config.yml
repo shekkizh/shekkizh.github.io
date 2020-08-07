@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sarath Shekkizhar"
 title_separator          : " "
 name                     : &name "Sarath Shekkizhar"
-description              : &description "PhD Student @ USC"
+description              : &description "PhD Student@USC"
 url                      : https://shekkizh.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shekkizh/shekkizh.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Sarath Shekkizhar"
   avatar           : "sarath.jpg"
-  bio              : "PhD Student Univ. of Southern California, <a style='color: black;' href='https://minghsiehece.usc.edu/'>Ming Hsieh Dept. of Electrical and Computer Engineering</a>"
+  bio              : "PhD Student <br/> <a style='color: black;' href='https://minghsiehece.usc.edu/'>Signal Transformation, Analysis and Compression Group</a> <br/> <a style='color: black;' href='https://minghsiehece.usc.edu/'>Ming Hsieh Dept. of Electrical and Computer Engineering</a> <br/> University of Southern California"
   location         : "Los Angeles, CA"
   employer         :
   pubmed           : 
