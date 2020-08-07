@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Sarath Shekkizhar"
-  avatar           : "profile.png"
+  avatar           : "sarath.jpg"
   bio              : "PhD Student Univ. of Southern California, <a style='color: black;' href='https://minghsiehece.usc.edu/'>Ming Hsieh Dept. of Electrical and Computer Engineering</a>"
   location         : "Los Angeles, CA"
   employer         :
@@ -91,7 +91,7 @@ author:
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   facebook         :
   github           : "shekkizh"
-  linkedin         : "/in/shekkizh"
+  linkedin         : "shekkizh"
   orcid            : 
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   twitter          : *twitter
