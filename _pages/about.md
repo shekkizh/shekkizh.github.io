@@ -26,6 +26,6 @@ Currently, I focus on non parametric, neighborhood algorithms for understanding 
 ## Background 
 Prior to joing USC for my PhD, I worked as a Software Engineer for 2.5 years at KLA-Tencor's Wafer Inspection Division on a defect classification software.
 
-I obtained my Master's degree with specialization in Computer Vision/ Machine Learning from University of Southern California. During my study, I had the opportunity to research as part of the Computer Vision Research group at USC Institute for Robotics and Intelligent Systems where I was advised by Dr. Jongmoo Choi under the guidance of Prof. Gerard Medioni.  I was also a part time software developer at Laboratory of Neurological Imaging where I worked on project Informatics Visualization in NeuroImaging (INVIZIAN) lead by Prof. John Van Horn. 
+I obtained my Master's degree with specialization in Computer Vision/ Machine Learning from USC. During my study, I had the opportunity to research as part of the Computer Vision Research group at USC Institute for Robotics and Intelligent Systems where I was advised by Dr. Jongmoo Choi under the guidance of Prof. Gerard Medioni.  I was also a part time software developer at Laboratory of Neurological Imaging where I worked on project Informatics Visualization in NeuroImaging (INVIZIAN) lead by Prof. John Van Horn. 
 
 I completed my Bachelor's degree in Electronics and Communication from National Institute of Technology, Tiruchrappalli (aka Regional Engineering College, Trichy) where I worked under the advise of Prof. Deivalakshmi and Prof. Palanisamy.
