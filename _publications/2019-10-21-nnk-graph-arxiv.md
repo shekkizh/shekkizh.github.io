@@ -24,5 +24,4 @@ Data driven graph constructions are often used in various applications, includin
   journal={arXiv preprint arXiv:1910.09383},
   year={2019}
 }
-
 ```

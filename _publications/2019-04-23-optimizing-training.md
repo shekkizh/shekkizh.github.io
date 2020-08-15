@@ -29,5 +29,4 @@ Methods and systems for training an inspection-related algorithm are provided. O
   publisher={Google Patents},
   note={US Patent 10,267,748}
 }
-
 ```

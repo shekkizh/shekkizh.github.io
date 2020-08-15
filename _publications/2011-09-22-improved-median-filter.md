@@ -29,5 +29,4 @@ A methodology based on median filters for the removal of Salt and Pepper noise b
   year={2011},
   organization={IEEE}
 }
-
 ```

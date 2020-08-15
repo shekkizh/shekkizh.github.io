@@ -28,5 +28,4 @@ Data driven graph constructions are often used in machine learning applications.
   year={2020},
   organization={IEEE}
 }
-
 ```

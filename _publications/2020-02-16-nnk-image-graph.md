@@ -2,9 +2,9 @@
 title: "Efficient graph construction for image representation"
 collection: publications
 permalink: /publication/2020-02-16-nnk-image-graph
-excerpt: 'Graphs are useful to interpret widely used image processing methods, e.g., bilateral filtering, or to develop new ones, e.g., kernel based techniques. However, simple graph constructions are often used, where edge weight and connectivity depend on a few parameters.'
+excerpt: 'Graphs are useful to interpret widely used image processing methods, e.g., bilateral filtering, or to develop new ones, e.g., kernel based techniques. However, simple graph constructions are often used, where edge weight and connectivity depend on a few parameters. In particular, the sparsity of the graph is determined by the choice of a window size.'
 date: 2020-02-16
-venue: 'arXiv Preprints (to be published at ICIP 2020)'
+venue: 'arXiv Preprints (to be published at ICIP)'
 paperurl: 'https://arxiv.org/abs/2002.06662'
 citation: '@article{shekkizhar2020efficient,
   title={Efficient graph construction for image representation},
@@ -24,5 +24,4 @@ Graphs are useful to interpret widely used image processing methods, e.g., bilat
   journal={arXiv preprint arXiv:2002.06662},
   year={2020}
 }
-
 ```

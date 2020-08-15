@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 Hi,
-I'm Sarath, a PhD student in Ming Hsieh Department of Electrical and Computer Engineering at University of Southern California, Los Angeles. My research advisor is [Prof. Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio)
+I'm Sarath, a PhD student in Ming Hsieh Department of Electrical and Computer Engineering at University of Southern California. My research advisor is [Prof. Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio).
 
 I'm broadly interested in graphs and machine learning. 
 Currently, I focus on non parametric, neighborhood algorithms for understanding data and deep learning models. 
