@@ -2,6 +2,7 @@
 title: "Graph Construction from Data by Non-Negative Kernel Regression"
 collection: publications
 permalink: /publication/2020-05-04-nnk-graph-icassp
+authors: 'S. Shekkizhar, A. Ortega'
 excerpt: 'Data driven graph constructions are often used in machine learning applications. However, learning an optimal graph from data is still a challenging task. K-nearest neighbor and ϵ-neighborhood methods are among the most common graph construction methods, due to their computational simplicity, but the choice of parameters such as K and ϵ associated with these methods is often ad hoc and lacks a clear interpretation.'
 date: 2020-05-04
 venue: 'IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)'

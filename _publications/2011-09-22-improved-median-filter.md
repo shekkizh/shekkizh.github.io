@@ -3,6 +3,7 @@ title: "Detection and removal of Salt and Pepper noise in images by improved med
 "
 collection: publications
 permalink: /publication/2011-09-22-improved-median-filter
+authors: 'S. Deivalakshmi, S. Shekkizhar, P. Palanisamy'
 excerpt: 'A methodology based on median filters for the removal of Salt and Pepper noise by its detection followed by filtering in both binary and gray level images has been proposed in this paper.'
 date: 2011-09-22
 venue: 'IEEE Recent Advances in Intelligent Computational Systems'

@@ -84,10 +84,11 @@ author:
   avatar           : "sarath.jpg"
   bio              : "PhD Student <br/> <a style='color: black;' href='https://minghsiehece.usc.edu/'>STAC Group</a> <br/> <a style='color: black;' href='https://minghsiehece.usc.edu/'>Electrical and Computer Engineering</a> <br/> Univ. of Southern California"
   location         : "Los Angeles, CA"
+  email            : "shekkizh@usc.edu"
+  address          : "EEB 441, 3740 McClintock Ave., Los Angeles, CA 90089"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=dWd8dQQAAAAJ&hl=en"
-  email            : 
+  googlescholar    : "https://scholar.google.com/citations?user=dWd8dQQAAAAJ&hl=en" 
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   facebook         :
   github           : "shekkizh"
