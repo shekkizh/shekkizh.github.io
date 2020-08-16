@@ -56,25 +56,6 @@ GPA: 9.12
 *{{ post.venue }}*, {{ post.date | default: "1900-01-01" | date: "%Y" }} .
 {% endfor %}
 
-## Research Experience
-
-### **Graph based Image Segmentation**, Prof. Antonio Ortega `Aug 2013 - Dec 2013`ß
-Performed experiments and analysis on graph based approach to Image Segmentation. The core idea was to leverage on methodologies for finding approximate Fiedler vector on a Graph Laplacian as an alternative to doing normalized cuts.
-
-### **3D Face Recognition System**, Dr. Jongmoo Choi, Prof. Gerard Medioni `May 2013 - Aug 2013`  
-Developed on the core recognition library and created an evaluation framework and data set for benchmarking. Made integration efforts on incorporating 3D modelling module for recognition.
-
-### **Dynamic Face Warping**, Prof. Antonio Ortega `Jan 2013 - June 2013`  
-Implemented a real time facial tracking and warping module in DaVinci DSP board. The project emphasized working under constrained resources and was targeted towards applications in mobile.
-
-### **Optical Character Recognition**, Prof. S. Deivalakshmi `Jan 2012 - June 2012`
-A simple neural network based character recognition system for use in Title search and License Plate recognition was developed. The system was evaluated with different font sizes and types. Also analysis was done on the effect of various hyper parameters and the loss manifold.
-
-### **Classification of Mammograms**, Prof. S. Deivalakshmi `Aug 2011 - Dec 2011`
-A method to differentiate and identify the nature of tumor in Mammograms based on discriminant analysis on extracted features was developed and evaluated on the MIAS database.
-
-
-
 ## Work Experience
 ### **Software Engineer**, KLA Tencor, Milpitas, CA `Mar 2014 - Oct 2016`
 Designed and developed tools to classify and visualize defect modulations for Process Window Qualification in wafer fabrication. Also, implemented and co-owned components for analysis and classification using decision trees and Random forests
@@ -88,10 +69,35 @@ Worked under the supervision of Dr. John Van Horn as part of the Information Vis
 ### **Intern**, Bharat Heavy Electrical Ltd, India `June 2011 - July 2011`
 Designed an assembly level microcontroller program to measure the bend angles in pipes of different sizes.
 
-## Teaching Experience
-### Course Producer, CS 561 Foundations of Artificial Intelligence, Dr. Sheila Tejada `Fall 2013`
-### Course Grader, EE 483 Introduction to DSP, Prof. Edgar Satorius `Summer 2013`
-### Course Grader, EE 483 Introduction to DSP, Prof. Edgar Satorius `Spring 2013`
+## Other Research Works
+
+### **Manifold embedding using NNK Graphs** `Jan 2020 - May 2020`
+Revisited data embedding methods using graphs in terms of robustness and stability with respect to hyperparameters. NNK graphs are significantly sparser compared to other graph constructions, while being able to capture the structure of noisy manifolds.
+
+
+### **Manifold Regularized Variational Autoencoder** `Aug 2019 - Dec 2019`
+Studied disentanglement in variational autoencoders with explicit regularization using graphs. This work was motivated from the perspective of locality often enforced in autoencoders using noisy sampling of embeddings.
+
+### **Are combined Fuzzy Cognitve Maps (FCM) always better than individual maps?** `Aug 2018 - Dec 2018`
+Analysed the performance of decisions taken by individuals in a simple game against that of the additive. Combined FCM reduces the effect of error associated with each individual. 
+
+### **Impact of l<sub>p</sub>-norm choice on K-nearest neighbor graph construction** `Jan 2018 - May 2018`
+Explored the effectiveness of distance norms for K-nearest neighbor graph construction in high dimensional spaces using eigen analysis. Lower norms produce separate data clusters better than euclidean and higher norms.
+
+### **Graph based Image Segmentation**, Prof. Antonio Ortega `Aug 2013 - Dec 2013`
+Performed experiments and analysis on graph based approach to Image Segmentation. The core idea was to leverage on methodologies for finding approximate Fiedler vector on a Graph Laplacian as an alternative to doing normalized cuts.
+
+### **3D Face Recognition System**, Dr. Jongmoo Choi, Prof. Gerard Medioni `May 2013 - Aug 2013`  
+Developed on the core recognition library and created an evaluation framework and data set for benchmarking. Made integration efforts on incorporating 3D modelling module for recognition.
+
+### **Dynamic Face Warping**, Prof. Antonio Ortega `Jan 2013 - June 2013`  
+Implemented a real time facial tracking and warping module in DaVinci DSP board. The project emphasized working under constrained resources and was targeted towards applications in mobile.
+
+### **Optical Character Recognition**, Prof. S. Deivalakshmi `Jan 2012 - June 2012`
+A simple neural network based character recognition system for use in Title search and License Plate recognition was developed. The system was evaluated with different font sizes and types. Also analysis was done on the effect of various hyper parameters and the loss manifold.
+
+### **Classification of Mammograms**, Prof. S. Deivalakshmi `Aug 2011 - Dec 2011`
+A method to differentiate and identify the nature of tumor in Mammograms based on discriminant analysis on extracted features was developed and evaluated on the MIAS database.
 
 ## Side Projects
 ### [Deeplearning Projects using Tensorflow](https://github.com/shekkizh/TensorflowProjects) (github.com/shekkizh/TensorflowProjects) 
@@ -111,6 +117,11 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 
 ### [Image Processing Projects](\href{https://github.com/shekkizh/ImageProcessingProjects) (github.com/shekkizh/ImageProcessingProjects)
 *Highlights*: Eye Tracking, Facial Tracking and Localization, Seam carving, Image Stitching, Image calibration, Image filters, Object detection and processing for various use cases
+
+## Teaching Experience
+### Course Producer, CS 561 Foundations of Artificial Intelligence, Dr. Sheila Tejada `Fall 2013`
+### Course Grader, EE 483 Introduction to DSP, Prof. Edgar Satorius `Summer 2013`
+### Course Grader, EE 483 Introduction to DSP, Prof. Edgar Satorius `Spring 2013`
 
 ## Academic and Co Curricular Activities
 - Volunteer at USC Vision and Voices, Fall 2018
