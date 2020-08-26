@@ -23,7 +23,7 @@ Currently, I focus on non parametric, neighborhood algorithms for understanding 
 
 [Feb 2020] [Graph Construction from Data by Non-Negative Kernel Regression](https://arxiv.org/abs/1910.09383) accpeted at ICASSP 2020
 {% endcapture %}
-<div class="notice--success">{{whats-new | markdownify}}</div>
+<div class="notice--info">{{whats-new | markdownify}}</div>
 
 
 ## Background 
