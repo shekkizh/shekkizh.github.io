@@ -60,10 +60,10 @@ GPA: 9.12
 ### **Software Engineer**, KLA Tencor, Milpitas, CA `Mar 2014 - Oct 2016`
 Designed and developed tools to classify and visualize defect modulations for Process Window Qualification in wafer fabrication. Also, implemented and co-owned components for analysis and classification using decision trees and Random forests
 
-### **Freelance Researcher**, Toonchat [(Project Demo)](https://www.youtube.com/watch?v=B7LyoWksHHE) `Jan 2014 - Jun 2014`
+### **Freelance Researcher**, Toonchat [(Demo: youtu.be/B7LyoWksHHE)](https://youtu.be/B7LyoWksHHE) `Jan 2014 - Jun 2014`
 Researched and worked with animators and researchers remotely on a real time face tracking under the advise of Dr. Eric Petajan for low bandwidth animations and anonymous video chat clients
 
-### **Software Developer**, Laboratory of Neurological Imaging, USC [(Project Page)](http://invizian.loni.usc.edu) `Aug 2013 - Dec 2013`
+### **Software Developer**, Laboratory of Neurological Imaging, USC [(invizian.loni.usc.edu)](http://invizian.loni.usc.edu) `Aug 2013 - Dec 2013`
 Worked under the supervision of Dr. John Van Horn as part of the Information Visualization project which is a  platform to interact and research on large amounts of brain data
 
 ### **Intern**, Bharat Heavy Electrical Ltd, India `June 2011 - July 2011`
@@ -100,22 +100,22 @@ A simple neural network based character recognition system for use in Title sear
 A method to differentiate and identify the nature of tumor in Mammograms based on discriminant analysis on extracted features was developed and evaluated on the MIAS database.
 
 ## Side Projects
-### [Deeplearning Projects using Tensorflow](https://github.com/shekkizh/TensorflowProjects) (github.com/shekkizh/TensorflowProjects) 
+### **Deeplearning Projects using Tensorflow** [(github.com/shekkizh/TensorflowProjects)](https://github.com/shekkizh/TensorflowProjects) 
 *Highlights*: DCGAN for generating flowers/ faces, Face completion using context, Deep dream, VGG visualization, Image Inversion, Neural Style Transfer
 
-### [Neural Networks Experiments](https://github.com/shekkizh/neuralnetworks.thought-experiments) (github.com/shekkizh/neuralnetworks.thought-experiments)
+### **Neural Networks Experiments** [(github.com/shekkizh/neuralnetworks.thought-experiments)](https://github.com/shekkizh/neuralnetworks.thought-experiments) 
 Experiments on Activation functions, Model Pruning (Optimal Brain Damage), Unsupervised Learning using AutoEncoders, VAEs, GANs
 
-### [Fully Convolutional Networks for Semantic Segmentation](https://github.com/shekkizh/FCN.tensorflow)  (github.com/shekkizh/FCN.tensorflow)
+### **Fully Convolutional Networks for Semantic Segmentation** [(github.com/shekkizh/FCN.tensorflow)](https://github.com/shekkizh/FCN.tensorflow)  
 Tensorflow implementation of FCNs for segmentation as in CVPR paper applied on MIT scene parsing challenge dataset
 
-### [Energy Based Generative Adversarial Networks](https://github.com/shekkizh/EBGAN.tensorflow) (github.com/shekkizh/EBGAN.tensorflow)
+### **Energy Based Generative Adversarial Networks** [(github.com/shekkizh/EBGAN.tensorflow)](https://github.com/shekkizh/EBGAN.tensorflow) 
 Model implementation of Junbo et. al's paper of training GAN with energy based objective in tensorflow
 
-### [Image Colorization](https://github.com/shekkizh/Colorization.tensorflow) (github.com/shekkizh/Colorization.tensorflow)
+### **Image Colorization** [(github.com/shekkizh/Colorization.tensorflow)](https://github.com/shekkizh/Colorization.tensorflow) 
 Experiments on leveraging CNNs for colorizing grayscale images by statistical knowledge gained about objects and colors from a dataset.
 
-### [Image Processing Projects](\href{https://github.com/shekkizh/ImageProcessingProjects) (github.com/shekkizh/ImageProcessingProjects)
+### **Image Processing Projects** [(github.com/shekkizh/ImageProcessingProjects)](\href{https://github.com/shekkizh/ImageProcessingProjects) 
 *Highlights*: Eye Tracking, Facial Tracking and Localization, Seam carving, Image Stitching, Image calibration, Image filters, Object detection and processing for various use cases
 
 ## Teaching Experience
