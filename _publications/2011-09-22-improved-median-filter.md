@@ -15,8 +15,7 @@ citation: '@inproceedings{deivalakshmi2011detection,
   pages={363--368},
   year={2011},
   organization={IEEE}
-}
-'
+}'
 ---
 A methodology based on median filters for the removal of Salt and Pepper noise by its detection followed by filtering in both binary and gray level images has been proposed in this paper. Linear and nonlinear filters have been proposed earlier for the removal of impulse noise; however the removal of impulse noise often brings about blurring which results in edges being distorted and poor quality. Therefore the necessity to preserve the edges and fine details during filtering is the challenge faced by researchers today. The proposed method consists of noise detection followed by the removal of detected noise by median filter using selective pixels that are not noise themselves. The noise detection is based on simple thresholding of pixels. Computer simulations were carried out to analyse the performance of the proposed method and the results obtained were compared to that of conventional median filter and center weighted median (CWM) filter.
 
