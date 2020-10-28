@@ -15,6 +15,8 @@ Currently, I focus on non parametric, neighborhood algorithms for understanding 
 <!-- An overaching theme that has been driving my research is the need for high performing, extremely simple and explainable systems. -->
 {% capture whats-new %}
 ## What's New
+[Oct 2020] [Efficient graph construction for image representation](https://ieeexplore.ieee.org/document/9191232) wins **Best Student Paper Award** at ICIP2020. 
+
 [Aug 2020] Graph based deep learning analysis and instance selection with Keisuke accepted at MMSP 2020
 
 [July 2020] Paper on arxiv: [DeepNNK: Explaining deep models and their generalization using polytope interpolation](https://arxiv.org/abs/2007.10505)
