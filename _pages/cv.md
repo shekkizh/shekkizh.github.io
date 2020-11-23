@@ -51,9 +51,9 @@ GPA: 9.12
 
 ## Publications
 {% for post in site.publications reversed %}
-### <a href="{{post.paperurl}}">{{post.title}}</a>
+### <a href="{{post.paperurl}}">{{post.title}}</a> {% if post.awards %} **[{{post.awards}}]**{% endif %}
 {{post.authors}}, 
-*{{ post.venue }}*, {{ post.date | default: "1900-01-01" | date: "%Y" }} .
+*{{ post.venue }}*, {{ post.date | default: "1900-01-01" | date: "%Y" }}
 {% endfor %}
 
 ## Work Experience
