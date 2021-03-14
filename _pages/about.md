@@ -15,6 +15,8 @@ Currently, I focus on non parametric, neighborhood algorithms for understanding 
 <!-- An overaching theme that has been driving my research is the need for high performing, extremely simple and explainable systems. -->
 {% capture whats-new %}
 ## What's New
+[Jan 2021] Revisiting local neighborhood methods in machine learning accepted at [DSLW 2021](http://conferences.ece.ubc.ca/dslw2021/#/)
+
 [Oct 2020] [Efficient graph construction for image representation](https://2020.ieeeicip.org/awards/) wins **Best Student Paper Award** at ICIP2020. 
 
 [Aug 2020] Graph based deep learning analysis and instance selection with Keisuke accepted at MMSP 2020
