@@ -10,14 +10,14 @@ categories:
  - research
 ---
 ## Why do we need to represent data using graphs?
-Graph driven machine learning has seen a surge of interest in the past few years with several applications in social sciences, biology, and network analysis, to name a few. 
+Graphs provide a generic setup to describe and analyze complex patterns in data where instead of observing data as isolated set of points, we can view them as network where data are entities/nodes with relationships/edges between them. 
+Graph driven machine learning (Graph-ML) has seen a surge of interest in the past few years with several applications in social sciences, biology, and network analysis, to name a few. Unlike standard machine learning methods that learn a function to each data point (where locality and connectivity assumptions are implicit), graph-ML aims at leveraging explicitly the information across points to obtain *better* functions over regions of space. Further, by associating graphs to only the input data (without labels/task information) allows one to characterize data for use in semi-supervised and unsupervised learning scenarios.
 <!-- Graph neural networks are a particularly popular area of research where one learns parametric functions based on local connectivity in the graphs. -->
 
-However, in some scenarios, no graph is given a priori and one has to *infer and construct* a graph to fit the data given. These graphs are useful for a few reasons: 
-1. Unlike machine learning methods that learn a function to each point, one can leverage explicitly the information across points to obtain *better* functions over regions of space.
-2. Allows one to characterize data under minimal assumptions for use in semi-supervised and unsupervised learning scenarios
+A critical issue in applying graph based machine learning is the definition of graph itself. In some scenarios, a graph structure is intuitive and at times given alongside the data.
+However, in most scenarios, no graph is given a priori and one has to *infer and construct* a graph to fit the data and the task to be solved. 
 
-In a typical graph learning problem, we are given *N* data points and the goal is to learn an *efficient* graph representation of the data. The keyword here is efficient: An efficient graph can be defined as one with number of edges of the same order as the number of nodes (*N*). Efficient graphs lead to faster downstream processing making them 
+In a typical graph learning problem, we are given *N* data points and the goal is to learn an *efficient* graph representation of the data. The keyword here is **efficient**: An efficient graph can be defined as one with number of edges of the same order as the number of nodes (*N*). Efficient graphs lead to faster downstream processing making them 
 
 ## A primer on sparse signal approximation
 
