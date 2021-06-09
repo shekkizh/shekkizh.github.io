@@ -4,7 +4,7 @@
 
 .archive {
   margin-bottom: 2em;
-
+  text-align: justify;
   @include breakpoint($medium) {
     @include span(12 of 12);
   }
@@ -12,6 +12,7 @@
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
+    @include suffix(0.5 of 12);
   }
 
   a {
@@ -60,7 +61,6 @@
 .archive__item-excerpt {
   margin-top: 0;
   font-size: $type-size-6;
-
   & + p {
     text-indent: 0;
   }

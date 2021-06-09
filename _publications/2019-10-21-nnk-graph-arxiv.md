@@ -1,5 +1,5 @@
 ---
-title: "Graph construction from data using non negative kernel regression (NNK graphs) - Journal draft"
+title: "Graph construction from data using non negative kernel regression - Journal draft"
 collection: publications
 permalink: /publication/2019-10-21-nnk-graph-arxiv
 authors: 'S. Shekkizhar, A. Ortega'
