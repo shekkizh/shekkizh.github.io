@@ -118,15 +118,20 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 ### **Image Processing Projects** [(github.com/shekkizh/ImageProcessingProjects)](\href{https://github.com/shekkizh/ImageProcessingProjects) 
 *Highlights*: Eye Tracking, Facial Tracking and Localization, Seam carving, Image Stitching, Image calibration, Image filters, Object detection and processing for various use cases
 
+## Co-Mentoring
+### David Bonet Solé, Universitat Politècnica de Catalunya (Visiting Researcher, USC), `Dec 2020 - June 2021`
+### Keisuke Nonaka, KDDI Research (Visiting Researcher, USC), `Aug 2019 - July 2020`
+
 ## Teaching Experience
 ### Course Producer, CS 561 Foundations of Artificial Intelligence, Dr. Sheila Tejada `Fall 2013`
 ### Course Grader, EE 483 Introduction to DSP, Prof. Edgar Satorius `Summer 2013`
 ### Course Grader, EE 483 Introduction to DSP, Prof. Edgar Satorius `Spring 2013`
 
 ## Academic and Co Curricular Activities
+- Volunteer, NeurIPS 2020, ICLR 2021
+- Viterbi Graduate Student Association (VGSA) Senator, Fall 2017, Spring 2020 
 - Volunteer at USC Vision and Voices, Fall 2018
 - Attended BayLearn 2018 (Machine Learning Symposium)  
-- Viterbi Graduate Student Association (VGSA) Senator, Fall 2017 
 - Attended *Bay Area Deep Learning School, 2016*.
 - One of 30 teams selected to present at USC Stevens Student Innovator Showcase, 2012. A concept on eye tracking [WYSIWYG] for HCI was presented.
 - *Coordinator*, ECE Campus Placement Committee, an initiative to prepare
@@ -135,7 +140,7 @@ students for placements.
 - *Event Organizer*, Guest Lectures,  Probe 2010.
 - *Event Manager*, Traffic Rush Robotic Event, Pragyan 2010, Technical festival at NIT, Tiruchirapalli.
 - *Event Coordinator*, Pip Bot Robotic Event,  Pragyan 2009.
-- Ranked among the top 1% of more than 300000, All India Engineering Entrance Exam, 2008.
+- Ranked among the top 1%, All India Engineering Entrance Exam, 2008.
 - Ranked among the top 10%, Talent Exam 2007, National Association of Physics and Chemistry teachers.
 
 
