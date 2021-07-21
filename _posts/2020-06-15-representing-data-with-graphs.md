@@ -1,6 +1,6 @@
 ---
 title: 'Representing data using graphs: A sparse signal approximation view'	
-date: 2020-06-15
+date: 2020-06-20
 excerpt: Graph driven machine learning has seen a surge of interest in the past few years with several applications in social sciences, biology, and network analysis, to name a few. However, in some scenarios, no graph is given a priori and one  one has to *infer and construct* a graph to fit the data given.
 permalink: /posts/2020/06/representing-data-with-graphs/
 tags:
