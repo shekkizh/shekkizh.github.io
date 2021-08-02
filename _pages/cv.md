@@ -132,11 +132,10 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 - Volunteer, NeurIPS 2020, ICLR 2021, ICML 2021
 - Viterbi Graduate Student Association (VGSA) Senator, Fall 2017, Spring 2020 
 - Volunteer at USC Vision and Voices, Fall 2018
-- Attended BayLearn 2018 (Machine Learning Symposium)  
+<!-- - Attended BayLearn 2018 (Machine Learning Symposium)  
 - Attended *Bay Area Deep Learning School, 2016*.
-- One of 30 teams selected to present at USC Stevens Student Innovator Showcase, 2012. A concept on eye tracking [WYSIWYG] for HCI was presented.
-- *Coordinator*, ECE Campus Placement Committee, an initiative to prepare
-students for placements.
+- One of 30 teams selected to present at USC Stevens Student Innovator Showcase, 2012. A concept on eye tracking [WYSIWYG] for HCI was presented. -->
+- *Coordinator*, ECE Campus Placement Committee 2012, NIT, Tiruchirappalli.
 - *Organizer*, Texas Instruments Digital Signal Processors workshop, Probe 2011, Technical symposium of ECE Department, NIT, Tiruchirappalli
 - *Event Organizer*, Guest Lectures,  Probe 2010.
 - *Event Manager*, Traffic Rush Robotic Event, Pragyan 2010, Technical festival at NIT, Tiruchirapalli.
