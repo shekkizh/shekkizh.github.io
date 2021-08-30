@@ -128,10 +128,11 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 ### Course Grader, EE 483 Introduction to DSP, Prof. Edgar Satorius `Spring 2013`
 
 ## Academic and Co Curricular Activities
+- Mentor, Viterbi Graduate Mentorship Program, Fall 2021
 - Discussant, UAI 2021
 - Volunteer, NeurIPS 2020, ICLR 2021, ICML 2021
 - Viterbi Graduate Student Association (VGSA) Senator, Fall 2017, Spring 2020
-- Volunteer at USC Vision and Voices, Fall 2018
+- Volunteer, USC Vision and Voices, Fall 2018
 - *Coordinator*, ECE Campus Placement Committee 2012, NIT, Tiruchirappalli
 - *Organizer*, Texas Instruments DSP workshop, Probe 2011, ECE Department, NIT, Tiruchirappalli
 - *Organizer*, Guest Lectures,  Probe 2010, ECE Department, NIT, Tiruchirappalli
