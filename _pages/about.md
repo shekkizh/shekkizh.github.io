@@ -15,6 +15,8 @@ Currently, I focus on non parametric, neighborhood algorithms for understanding 
 <!-- An overaching theme that has been driving my research is the need for high performing, extremely simple and explainable systems. -->
 {% capture whats-new %}
 ## What's New
+[Aug 2021] Channel-Wise Early stopping without a validation set via NNK interpolation with David accpeted at [APSIPA 2021](https://www.apsipa2021.org/)
+
 [July 2021] Model selection and explainability in neural networks using a polytope interpolation framework accepted at [Asilomar 2021](https://asilomarsscconf.org/)
 
 [Jan 2021] Revisiting local neighborhood methods in machine learning accepted at [DSLW 2021](http://conferences.ece.ubc.ca/dslw2021/#/)
