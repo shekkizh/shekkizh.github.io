@@ -8,16 +8,17 @@ redirect_from:
   - /about.html
 ---
 Hi,
-I'm Sarath, a PhD student in Ming Hsieh Department of Electrical and Computer Engineering at University of Southern California. My research advisor is [Prof. Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio).
+I'm Sarath, a Ph.D. candidate in Ming Hsieh Department of Electrical and Computer Engineering at University of Southern California. My research advisor is [Prof. Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio).
 
 I'm broadly interested in graphs and machine learning. 
 Currently, I focus on non parametric, neighborhood algorithms for understanding data and deep learning models. 
 <!-- An overaching theme that has been driving my research is the need for high performing, extremely simple and explainable systems. -->
 {% capture whats-new %}
 ## What's New
+
 [Aug 2021] Channel-Wise Early stopping without a validation set via NNK interpolation with David accpeted at [APSIPA 2021](https://www.apsipa2021.org/)
 
-[July 2021] Model selection and explainability in neural networks using a polytope interpolation framework accepted at [Asilomar 2021](https://asilomarsscconf.org/)
+[July 2021] Model selection and explainability in neural networks using NNK accepted at [Asilomar 2021](https://asilomarsscconf.org/)
 
 [Jan 2021] Revisiting local neighborhood methods in machine learning accepted at [DSLW 2021](http://conferences.ece.ubc.ca/dslw2021/#/)
 
@@ -35,8 +36,8 @@ Currently, I focus on non parametric, neighborhood algorithms for understanding 
 
 
 ## Background 
-Prior to joing USC for my PhD, I worked as a Software Engineer for 2.5 years at KLA-Tencor's Wafer Inspection Division on a defect classification software.
+Prior to joing USC for my PhD, I worked as a software engineer for 2.5 years at KLA-Tencor's Wafer Inspection Division on a defect classification software.
 
-I obtained my Master's degree with specialization in Computer Vision/ Machine Learning from USC. During my study, I had the opportunity to research as part of the Computer Vision Research group at USC Institute for Robotics and Intelligent Systems where I was advised by Dr. Jongmoo Choi under the guidance of Prof. Gerard Medioni.  I was also a part time software developer at Laboratory of Neurological Imaging where I worked on project Informatics Visualization in NeuroImaging (INVIZIAN) lead by Prof. John Van Horn. 
+I obtained my Masters degree with specialization in computer vision and machine learning from USC. During my study, I had the opportunity to work as part of the computer vision research group at USC Institute for Robotics and Intelligent Systems where I was advised by Dr. Jongmoo Choi under the guidance of Prof. Gerard Medioni.  I was also a part time software developer at Laboratory of Neurological Imaging where I worked on project Informatics Visualization in NeuroImaging (INVIZIAN) lead by Prof. John Van Horn. 
 
-I completed my Bachelor's degree in Electronics and Communication from National Institute of Technology, Tiruchrappalli (aka Regional Engineering College, Trichy) where I worked under the advise of Prof. Deivalakshmi and Prof. Palanisamy.
+I completed my Bachelors degree in Electronics and Communication from National Institute of Technology - Tiruchrappalli, where I worked under the advise of Profs. Deivalakshmi and Palanisamy.

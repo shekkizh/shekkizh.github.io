@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Sarath Shekkizhar"
   avatar           : "sarath.jpg"
-  bio              : "PhD Student <br/> <a style='color: black;' href='https://sites.google.com/usc.edu/stac-lab/home'>STAC Group</a> <br/> <a style='color: black;' href='https://minghsiehece.usc.edu/'>Electrical and Computer Engineering</a> <br/> Univ. of Southern California"
+  bio              : "PhD Student <br/> <a style='color: black;' href='https://sites.google.com/usc.edu/stac-lab/home'>STAC Lab</a> <br/> <a style='color: black;' href='https://minghsiehece.usc.edu/'>Electrical & Computer Engineering</a> <br/> Univ. of Southern California"
   location         : "Los Angeles, CA"
-  email            : "shekkizh@usc.edu"
+  email            : "shekkizh at usc dot edu"
   address          : "EEB 441, 3740 McClintock Ave., Los Angeles, CA 90089"
   employer         :
   pubmed           : 
