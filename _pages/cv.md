@@ -17,7 +17,7 @@ redirect_from:
 <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.address }}
 <a href="{{ site.url }}"><i class="fas fa-fw fa-link" aria-hidden="true" style="margin-left:1em"></i> {{ site.data.ui-text[site.locale].homepage | default: "Website" }}</a>
 
-<a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true" style="margin-left:1em"></i> {{ author.email }}</a>
+<a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true" style="margin-left:1em"></i> shekkizh@usc.edu</a>
 
 <a href="https://www.linkedin.com/in/{{ author.linkedin }}" style="margin-left:1em"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> {{author.linkedin}}</a>
 
