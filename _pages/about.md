@@ -15,6 +15,7 @@ Currently, I focus on non parametric, neighborhood algorithms for understanding 
 <!-- An overaching theme that has been driving my research is the need for high performing, extremely simple and explainable systems. -->
 {% capture whats-new %}
 ## What's New
+[Sept 2021] Revisiting nearest neighbors from a signal approximation perspective will be presented at [BayLearn 2021](https://sites.google.com/chalearn.org/baylearn2021/)
 
 [Aug 2021] Channel-Wise Early stopping without a validation set via NNK interpolation with David accpeted at [APSIPA 2021](https://www.apsipa2021.org/)
 
