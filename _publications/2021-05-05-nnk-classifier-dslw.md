@@ -6,6 +6,7 @@ authors: 'S. Shekkizhar, A. Ortega'
 excerpt: 'Several machine learning methods leverage the idea of locality by using $k$-nearest neighbor (KNN) techniques to design better pattern recognition models.  However, the choice of KNN parameters such as $k$ is often  made experimentally, e.g., via cross-validation, leading to local neighborhoods without a clear geometric interpretation.'
 date: 2021-05-05
 venue: 'IEEE Data Science and Learning Workshop (DSLW)'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/9523409'
 citation: '@inproceedings{nonaka2020graph,
   title={Revisiting local neighborhood methods in machine learning},
   author={Shekkizhar, Sarath and Ortega, Antonio},
