@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sarath Shekkizhar"
 title_separator          : "-"
 name                     : &name "Sarath Shekkizhar"
-description              : &description "PhD Student@USC"
+description              : &description "PhD Candidate@USC"
 url                      : https://shekkizh.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shekkizh/shekkizh.github.io"
@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Sarath Shekkizhar"
   avatar           : "sarath.jpg"
-  bio              : "PhD Student <br/> <a style='color: black;' href='https://sites.google.com/usc.edu/stac-lab/home'>STAC Lab</a> <br/> <a style='color: black;' href='https://minghsiehece.usc.edu/'>Electrical & Computer Engineering</a> <br/> Univ. of Southern California"
+  bio              : "PhD Candidate <br/> <a style='color: black;' href='https://sites.google.com/usc.edu/stac-lab/home'>STAC Lab</a> <br/> <a style='color: black;' href='https://minghsiehece.usc.edu/'>Electrical & Computer Engineering</a> <br/> Univ. of Southern California"
   location         : "Los Angeles, CA"
   email            : "shekkizh at usc dot edu"
-  address          : "EEB 441, 3740 McClintock Ave., Los Angeles, CA 90089"
+  address          : "3740 McClintock Ave., Los Angeles, CA 90089"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=dWd8dQQAAAAJ&hl=en" 
