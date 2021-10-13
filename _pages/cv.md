@@ -119,7 +119,8 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 *Highlights*: Eye Tracking, Facial Tracking and Localization, Seam carving, Image Stitching, Image calibration, Image filters, Object detection and processing for various use cases
 
 ## Co-Mentoring
-### David Bonet Solé, Universitat Politècnica de Catalunya (Visiting Researcher, USC) `Dec 2020 - June 2021`
+### Aryan Gulati, University of Southern California (CURVE program, USC) `Aug 2021 - Present`
+### David Bonet Solé, Universitat Politècnica de Catalunya (Visiting Researcher, USC) `Dec 2020 - Present`
 ### Keisuke Nonaka, KDDI Research (Visiting Researcher, USC) `Aug 2019 - July 2020`
 
 ## Teaching Experience
