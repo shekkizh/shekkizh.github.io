@@ -25,7 +25,7 @@ Currently, I focus on non parametric, neighborhood algorithms for understanding 
 
 [Oct 2020] [Efficient graph construction for image representation](https://2020.ieeeicip.org/awards/) wins **Best Student Paper Award** at ICIP2020. 
 
-[Aug 2020] Graph based deep learning analysis and instance selection with Keisuke accepted at MMSP 2020
+[Aug 2020] [Graph based deep learning analysis and instance selection](https://ieeexplore.ieee.org/abstract/document/9287121) with Keisuke accepted at MMSP 2020
 
 [July 2020] Paper on arxiv: [DeepNNK: Explaining deep models and their generalization using polytope interpolation](https://arxiv.org/abs/2007.10505)
 
@@ -37,7 +37,7 @@ Currently, I focus on non parametric, neighborhood algorithms for understanding 
 
 
 ## Background 
-Prior to joing USC for my PhD, I worked as a software engineer for 2.5 years at KLA-Tencor's Wafer Inspection Division on a defect classification software.
+Prior to joining USC for my PhD, I worked as a software engineer for 2.5 years at KLA-Tencor's Wafer Inspection Division on a defect classification software.
 
 I obtained my Masters degree with specialization in computer vision and machine learning from USC. During my study, I had the opportunity to work as part of the computer vision research group at USC Institute for Robotics and Intelligent Systems where I was advised by Dr. Jongmoo Choi under the guidance of Prof. Gerard Medioni.  I was also a part time software developer at Laboratory of Neurological Imaging where I worked on project Informatics Visualization in NeuroImaging (INVIZIAN) lead by Prof. John Van Horn. 
 
