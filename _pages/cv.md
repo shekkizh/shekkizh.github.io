@@ -121,7 +121,7 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 ## Co-Mentoring
 ### Aryan Gulati, University of Southern California (CURVE program, USC) `Aug 2021 - Present`
 ### David Bonet Solé, Universitat Politècnica de Catalunya (Visiting Researcher, USC) `Dec 2020 - Present`
-### Keisuke Nonaka, KDDI Research (Visiting Researcher, USC) `Aug 2019 - July 2020`
+<!-- ### Keisuke Nonaka, KDDI Research (Visiting Researcher, USC) `Aug 2019 - July 2020` -->
 
 ## Teaching Experience
 ### Course Producer, CS 561 Foundations of Artificial Intelligence, Dr. Sheila Tejada `Fall 2013`
@@ -129,25 +129,26 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 ### Course Grader, EE 483 Introduction to DSP, Prof. Edgar Satorius `Spring 2013`
 
 ## Academic and Co Curricular Activities
+- Reviewer, ICLR 2022
 - Mentor, Viterbi Graduate Mentorship Program, Fall 2021
 - Discussant, UAI 2021
-- Volunteer, NeurIPS 2020, ICLR 2021, ICML 2021
+- Volunteer, NeurIPS, ICLR, ICML
 - Viterbi Graduate Student Association (VGSA) Senator, Fall 2017, Spring 2020
-- Volunteer, USC Vision and Voices, Fall 2018
-- *Coordinator*, ECE Campus Placement Committee 2012, NIT, Tiruchirappalli
-- *Organizer*, Texas Instruments DSP workshop, Probe 2011, ECE Department, NIT, Tiruchirappalli
-- *Organizer*, Guest Lectures,  Probe 2010, ECE Department, NIT, Tiruchirappalli
-- *Event Manager*, Traffic Rush Robotic Event, Pragyan 2010, NIT, Tiruchirapalli
-- *Event Coordinator*, Pip Bot Robotic Event,  Pragyan 2009, NIT, Tiruchirapalli
+- Volunteer, USC Vision and Voices, 2018
+- *Coordinator*, ECE Campus Placement Committee 2012, NIT-Tiruchirappalli
+- *Organizer*, Guest Lecturs, Texas Instruments workshop, ECE Probe 2010 & 2011, NIT-Tiruchirappalli
+- *Event Manager*, Robotic Event, Pragyan 2009 & 2010, NIT-Tiruchirapalli
 - Ranked among the top 1%, All India Engineering Entrance Exam, 2008
 - Ranked among the top 10%, Talent Exam 2007, National Assoc. of Physics and Chemistry Teachers
 
 
 <!-- ### Footer
 
-Last updated: Aug 2020 -->
+Last updated: Oct 2021 -->
 
 <!-- - Attended BayLearn 2018 (Machine Learning Symposium)  
+- *Organizer*, Guest Lectures,  Probe 2010, ECE Department, NIT, Tiruchirappalli
+- *Event Coordinator*, Pip Bot Robotic Event,  Pragyan 2009, NIT, Tiruchirapalli
 - Attended *Bay Area Deep Learning School, 2016*.
 - One of 30 teams selected to present at USC Stevens Student Innovator Showcase, 2012. A concept on eye tracking [WYSIWYG] for HCI was presented. -->
 
