@@ -120,7 +120,7 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 
 ## Co-Mentoring
 ### Aryan Gulati, University of Southern California (CURVE program, USC) `Aug 2021 - Present`
-### David Bonet Solé, Universitat Politècnica de Catalunya (Visiting Researcher, USC) `Dec 2020 - Present`
+### David Bonet Solé, Universitat Politècnica de Catalunya (Visiting Researcher, USC) `Dec 2020 - Aug 2021`
 <!-- ### Keisuke Nonaka, KDDI Research (Visiting Researcher, USC) `Aug 2019 - July 2020` -->
 
 ## Teaching Experience
