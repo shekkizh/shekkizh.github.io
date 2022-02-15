@@ -15,6 +15,8 @@ Currently, I focus on non parametric, neighborhood algorithms for understanding 
 <!-- An overaching theme that has been driving my research is the need for high performing, extremely simple and explainable systems. -->
 {% capture whats-new %}
 ## What's New
+[Jan 2022] Channel redundancy and overlap in CNNs with Channel-wise NNK graphs with David accepted at [ICASSP 2022](https://2022.ieeeicassp.org/)
+
 [Oct 2021] Paper on arxiv: [NNK-Means: Dictionary learning using Non-Negative Kernel Regression](https://arxiv.org/abs/2110.08212)
 
 [Sept 2021] Revisiting nearest neighbors from a signal approximation perspective will be presented at [BayLearn 2021](https://baylearn-org.github.io/www/index.html)
@@ -27,6 +29,7 @@ Currently, I focus on non parametric, neighborhood algorithms for understanding 
 
 [Oct 2020] [Efficient graph construction for image representation](https://2020.ieeeicip.org/awards/) wins **Best Student Paper Award** at ICIP2020. 
 
+<!--
 [Aug 2020] [Graph based deep learning analysis and instance selection](https://ieeexplore.ieee.org/abstract/document/9287121) with Keisuke accepted at MMSP 2020
 
 [July 2020] Paper on arxiv: [DeepNNK: Explaining deep models and their generalization using polytope interpolation](https://arxiv.org/abs/2007.10505)
@@ -34,6 +37,7 @@ Currently, I focus on non parametric, neighborhood algorithms for understanding 
 [May 2020] [Efficient graph construction for image representation](https://arxiv.org/abs/2002.06662) accepted at ICIP 2020
 
 [Feb 2020] [Graph Construction from Data by Non-Negative Kernel Regression](https://arxiv.org/abs/1910.09383) accpeted at ICASSP 2020
+-->
 {% endcapture %}
 <div class="notice--info">{{whats-new | markdownify}}</div>
 

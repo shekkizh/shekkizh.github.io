@@ -1,5 +1,5 @@
 ---
-title: "Channel-Wise Early Stopping without a ValidationSet via NNK Polytope Interpolation"
+title: "Channel-Wise Early Stopping without a Validation Set via NNK Polytope Interpolation"
 collection: publications
 permalink: /publication/2021-08-31-cw-nnk-generalization
 authors: 'D. Bonnet, A. Ortega, J.Ruiz-Hidalgo, S.Shekkizhar'
