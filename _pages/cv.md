@@ -82,10 +82,10 @@ Studied disentanglement in VAEs with explicit regularization using graphs. This 
 Analysed the performance of decisions taken by individuals in a simple game against that of the additive. Combined FCM reduces the effect of error associated with each individual. 
 
 ### **Impact of l<sub>p</sub>-norm choice on K-nearest neighbor graph construction** `Jan 2018 - May 2018`
-Explored the effectiveness of distance norms for K-nearest neighbor graph construction in high dimensional spaces using eigen analysis. Lower norms produce separate data clusters better than euclidean and higher norms.
+Explored the impact of distance norms for k-nearest neighbor graph construction in high dimensional spaces using eigen analysis. Lower norms produce data clusters better than euclidean and higher norms.
 
 ### **Graph based Image Segmentation**, Prof. Antonio Ortega `Aug 2013 - Dec 2013`
-Performed experiments and analysis on graph based approach to image Segmentation. The core idea was to leverage on methodologies for finding approximate Fiedler vector on a graph laplacian as an alternative to doing normalized cuts.
+Performed experiments and analysis on graph based approach to image Segmentation. Leveraged methodologies for finding approximate Fiedler vector on a graph laplacian as an alternative to doing normalized cuts.
 
 ### **3D Face Recognition System**, Dr. Jongmoo Choi, Prof. Gerard Medioni `May 2013 - Aug 2013`  
 Developed on the core recognition library and created an evaluation framework and data set for benchmarking. Made integration efforts on incorporating 3D modelling module for recognition.
@@ -94,14 +94,14 @@ Developed on the core recognition library and created an evaluation framework an
 Implemented a real time facial tracking and warping module in DaVinci DSP board. The project emphasized working under constrained resources and was targeted towards applications in mobile.
 
 ### **Optical Character Recognition**, Prof. S. Deivalakshmi `Jan 2012 - June 2012`
-A neural network based character recognition system for use in Title search and License Plate recognition was developed. The system was evaluated with different font sizes and types. Also analysis was done on the effect of various hyper parameters and the loss manifold.
+A neural network based character recognition system for use with motor vehicle license plate recognition was developed. The system was evaluated with different fonts and lighting confitions.
 
 ### **Classification of Mammograms**, Prof. S. Deivalakshmi `Aug 2011 - Dec 2011`
-A method to differentiate and identify the nature of tumor in Mammograms based on discriminant analysis on extracted features was developed and evaluated on the MIAS database.
+A method to differentiate and identify the nature of tumor in mammograms using discriminant analysis on extracted features was developed and evaluated on the MIAS database.
 
 ## Side Projects
 ### **Deeplearning Projects using Tensorflow** [(github.com/shekkizh/TensorflowProjects)](https://github.com/shekkizh/TensorflowProjects) 
-*Highlights*: DCGAN for generating flowers/ faces, Face completion using context, Deep dream, VGG visualization, Image Inversion, Neural Style Transfer
+*Highlights*: DCGAN for generating flowers/ faces, Face completion using context, Deep dream, VGG visualization, Image Inversion, Style Transfer
 
 ### **Neural Networks Experiments** [(github.com/shekkizh/neuralnetworks.thought-experiments)](https://github.com/shekkizh/neuralnetworks.thought-experiments) 
 Experiments on Activation functions, Model Pruning (Optimal Brain Damage), Unsupervised Learning using AutoEncoders, VAEs, GANs
@@ -116,7 +116,7 @@ Model implementation of Junbo et. al's paper of training GAN with energy based o
 Experiments on leveraging CNNs for colorizing grayscale images by statistical knowledge gained about objects and colors from a dataset.
 
 ### **Image Processing Projects** [(github.com/shekkizh/ImageProcessingProjects)](\href{https://github.com/shekkizh/ImageProcessingProjects) 
-*Highlights*: Eye Tracking, Facial Tracking and Localization, Seam carving, Image Stitching, Image calibration, Image filters, Object detection and processing for various use cases
+*Highlights*: Eye Tracking, Facial Tracking and Localization, Seam carving, Image Stitching, Image calibration, Image filters, Object detection and processing
 
 ## Co-Mentoring
 ### Carlos Hurtado Comín, Universitat Politècnica de Catalunya (Visiting Researcher, USC) `Mar 2022 - Present`
