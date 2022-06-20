@@ -130,7 +130,7 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 ### Course Grader, EE 483 Introduction to DSP, Prof. Edgar Satorius `Spring 2013`
 
 ## Academic and Co Curricular Activities
-- Reviewer, ICLR 2022
+- Reviewer, ICLR 2022, NeurIPS 2022
 - Mentor, Viterbi Graduate Mentorship Program, Fall 2021
 - Discussant, UAI 2021
 - Volunteer, NeurIPS, ICLR, ICML
