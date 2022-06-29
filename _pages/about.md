@@ -15,6 +15,8 @@ Currently, I focus on non-parametric, neighborhood algorithms for understanding 
 <!-- An overaching theme that has been driving my research is the need for high performing, extremely simple and explainable systems. -->
 {% capture whats-new %}
 ## What's New
+[May 2022] I will be presenting at *Advances in Learning for Graphs, Manifolds, and Geometric Data*, [SIAM MDS22](https://www.siam.org/conferences/cm/conference/mds22)
+
 [Jan 2022] Channel redundancy and overlap in CNNs with Channel-wise NNK graphs with David accepted at [ICASSP 2022](https://2022.ieeeicassp.org/)
 
 [Oct 2021] Paper on arxiv: [NNK-Means: Dictionary learning using Non-Negative Kernel Regression](https://arxiv.org/abs/2110.08212)
