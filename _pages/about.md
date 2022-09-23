@@ -17,6 +17,9 @@ I'm in the job market for a postodoctoral/research position. Please send me an e
 <!-- An overaching theme that has been driving my research is the need for high performing, extremely simple and explainable systems. -->
 {% capture whats-new %}
 ## What's New
+[Sept 2022] I have been selected as a finalist for 2022-23 [Ming-Hsieh Ph.D. Scholar program](https://minghsiehece.usc.edu/mhi-home/mhi-mhi-scholars/).
+
+[Aug 2022] I will be interning at Google with counter-abuse technology and graph-mining team.
 
 [May 2022] I will be presenting at *Advances in Learning for Graphs, Manifolds, and Geometric Data*, [SIAM MDS22](https://www.siam.org/conferences/cm/conference/mds22)
 
@@ -30,11 +33,11 @@ I'm in the job market for a postodoctoral/research position. Please send me an e
 
 [July 2021] Model selection and explainability in neural networks using NNK accepted at [Asilomar 2021](https://asilomarsscconf.org/)
 
+<!--
 [Jan 2021] [Revisiting local neighborhood methods in machine learning](https://ieeexplore.ieee.org/abstract/document/9523409) accepted at [DSLW 2021](http://conferences.ece.ubc.ca/dslw2021/#/)
 
 [Oct 2020] [Efficient graph construction for image representation](https://2020.ieeeicip.org/awards/) wins **Best Student Paper Award** at ICIP2020. 
 
-<!--
 [Aug 2020] [Graph based deep learning analysis and instance selection](https://ieeexplore.ieee.org/abstract/document/9287121) with Keisuke accepted at MMSP 2020
 
 [July 2020] Paper on arxiv: [DeepNNK: Explaining deep models and their generalization using polytope interpolation](https://arxiv.org/abs/2007.10505)

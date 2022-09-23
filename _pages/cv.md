@@ -57,6 +57,10 @@ GPA: 9.12
 {% endfor %}
 
 ## Work Experience
+### **Research Intern**, Google, Sunnyvale, CA  `Sep 2022 - Dec 2022`
+Host: Animesh Nandi, Behavior Protections, Counter-Abuse Technology.<br>
+Working on understanding the impact of input data used for training graph models for detecting account abuse and research directions to improve the model.
+
 ### **Software Engineer**, KLA Tencor, Milpitas, CA `Mar 2014 - Oct 2016`
 Designed and developed tools to classify and visualize defect modulations for Process Window Qualification in wafer fabrication. Also, implemented and co-owned components for analysis and classification using decision trees and Random forests
 
