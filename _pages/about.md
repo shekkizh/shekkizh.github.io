@@ -17,6 +17,8 @@ I'm in the job market for a postodoctoral/research position. Please send me an e
 <!-- An overaching theme that has been driving my research is the need for high performing, extremely simple and explainable systems. -->
 {% capture whats-new %}
 ## What's New
+[Oct 2022] Carlos's work posted on arxiv: [Study of Manifold Geometry using Multiscale Non-Negative Kernel Graphs](https://arxiv.org/abs/2210.17475v1)
+
 [Sept 2022] I have been selected as a finalist for 2022-23 [Ming-Hsieh Ph.D. Scholar program](https://minghsiehece.usc.edu/mhi-home/mhi-mhi-scholars/).
 
 [Aug 2022] I will be interning at Google with counter-abuse technology and graph-mining team.

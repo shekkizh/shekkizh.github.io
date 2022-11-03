@@ -26,7 +26,7 @@ redirect_from:
 
 ## Education
 
-### **Ph.D.** in Electrical and Computer Engineering, **M.S.** in Computer Science `Aug 2017 - Present`
+### **Ph.D.** in Electrical and Computer Engineering  `Aug 2017 - Present`
 
 ```
 GPA: 3.93
@@ -34,6 +34,13 @@ GPA: 3.93
 
 **University of Southern California**, Los Angeles, CA  <br>
 Advisor: [Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio).
+
+### **M.S.** in Computer Science `Aug 2017 - May 2022` 
+
+```
+GPA: 4.0
+```
+**University of Southern California**, Los Angeles, CA
 
 ### **M.S.** in Electrical Engineering (Computer Vision, Machine Learning) `Aug 2012 - Dec 2013`
 
@@ -58,8 +65,8 @@ GPA: 9.12
 
 ## Work Experience
 ### **Research Intern**, Google, Sunnyvale, CA  `Sep 2022 - Dec 2022`
-Host: Animesh Nandi, Behavior Protections, Counter-Abuse Technology.<br>
-Working on understanding the impact of input data used for training graph models for detecting account abuse and research directions to improve the model.
+Host: Animesh Nandi, Mohamed Farghal, Behavior Protections, Counter-Abuse Technology.<br>
+Working on understanding the impact of input data used for training graph models for detecting abuse and scalable sampling approaches to improve the model.
 
 ### **Software Engineer**, KLA Tencor, Milpitas, CA `Mar 2014 - Oct 2016`
 Designed and developed tools to classify and visualize defect modulations for Process Window Qualification in wafer fabrication. Also, implemented and co-owned components for analysis and classification using decision trees and Random forests
@@ -134,7 +141,7 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 ### Course Grader, EE 483 Introduction to DSP, Prof. Edgar Satorius `Spring 2013`
 
 ## Academic and Co Curricular Activities
-- Reviewer, ICLR 2022, NeurIPS 2022, IEEE Journal
+- Reviewer, ICLR 2022, NeurIPS 2022, IEEE JSAIT, LoG 2022
 - Mentor, Viterbi Graduate Mentorship Program, Fall 2021
 - Discussant, UAI 2021
 - Volunteer, NeurIPS, ICLR, ICML
