@@ -65,8 +65,8 @@ GPA: 9.12
 
 ## Work Experience
 ### **Research Intern**, Google, Sunnyvale, CA  `Sep 2022 - Dec 2022`
-Host: Animesh Nandi, Mohamed Farghal, Behavior Protections, Counter-Abuse Technology.<br>
-Working on understanding the impact of input data used for training graph models for detecting abuse and scalable sampling approaches to improve the model.
+Host: Mohamed Farghal, Animesh Nandi, Behavior Protections, Counter-Abuse Technology.<br>
+Worked on understanding the impact of input data used in training graph models and scalable sampling approaches to improve semi-supervised graph learning.
 
 ### **Software Engineer**, KLA Tencor, Milpitas, CA `Mar 2014 - Oct 2016`
 Designed and developed tools to classify and visualize defect modulations for Process Window Qualification in wafer fabrication. Also, implemented and co-owned components for analysis and classification using decision trees and Random forests
