@@ -17,6 +17,8 @@ I'm in the job market for a postodoctoral/research position. Please send me an e
 <!-- An overaching theme that has been driving my research is the need for high performing, extremely simple and explainable systems. -->
 {% capture whats-new %}
 ## What's New
+[Feb 2023] I will be sharing my work with a broader audience at [USC WiSE STEM Bytes Seminar](https://wise.usc.edu/event/stem-bytes-seminar-13/)
+
 [Oct 2022] Carlos's work posted on arxiv: [Study of Manifold Geometry using Multiscale Non-Negative Kernel Graphs](https://arxiv.org/abs/2210.17475v1)
 
 [Sept 2022] I have been selected as a finalist for 2022-23 [Ming-Hsieh Ph.D. Scholar program](https://minghsiehece.usc.edu/mhi-home/mhi-mhi-scholars/).
