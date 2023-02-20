@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2022-10-31-Multiscale-nnk
 authors: 'C. Hurtado, S. Shekkizhar, J. Ruiz-Hidalgo, A. Ortega'
 excerpt: 'Modern machine learning systems are increasingly trained on large amounts of data embedded in high-dimensional spaces. Often this is done without analyzing the structure of the dataset. In this work, we propose a framework to study the geometric structure of the data.'
-date: 2022-10-31
+date: 2023-02-15
 venue: 'IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (In press)'
 paperurl: 'https://arxiv.org/abs/2210.17475v1'
 citation: '@article{hurtado2022study,
