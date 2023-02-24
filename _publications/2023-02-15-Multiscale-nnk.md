@@ -5,7 +5,7 @@ permalink: /publication/2023-02-15-Multiscale-nnk
 authors: 'C. Hurtado, S. Shekkizhar, J. Ruiz-Hidalgo, A. Ortega'
 excerpt: 'Modern machine learning systems are increasingly trained on large amounts of data embedded in high-dimensional spaces. Often this is done without analyzing the structure of the dataset. In this work, we propose a framework to study the geometric structure of the data.'
 date: 2023-02-15
-venue: 'IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (In press)'
+venue: 'IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)'
 paperurl: 'https://arxiv.org/abs/2210.17475v1'
 citation: '@article{hurtado2022study,
   title={Study of Manifold Geometry using Multiscale Non-Negative Kernel Graphs},
