@@ -66,10 +66,10 @@ GPA: 9.12
 ## Work Experience
 ### **Research Intern**, Google, Sunnyvale, CA  `Sep 2022 - Dec 2022`
 Host: Mohamed Farghal, Animesh Nandi, Behavior Protections, Counter-Abuse Technology.<br>
-Worked on understanding the impact of input data used in training graph models and scalable sampling approaches to improve semi-supervised graph learning.
+Worked on understanding the impact of input data used in training graph models and scalable sampling approaches to improve semi-supervised graph learning. Preliminary experiments with proposed graph learning showed 3x increased recall in abuse detection.
 
 ### **Software Engineer**, KLA Tencor, Milpitas, CA `Mar 2014 - Oct 2016`
-Designed and developed tools to classify and visualize defect modulations for Process Window Qualification in wafer fabrication. Also, implemented and co-owned components for analysis and classification using decision trees and Random forests
+Designed and developed tools to classify and visualize defect modulations for Process Window Qualification in wafer fabrication. Also, implemented and co-owned components for analysis and classification using decision trees and random forests.
 
 ### **Freelance Researcher**, Toonchat [(Demo: youtu.be/B7LyoWksHHE)](https://youtu.be/B7LyoWksHHE) `Jan 2014 - Jun 2014`
 Researched and worked with animators and researchers on real time face tracking under the advise of Dr. Eric Petajan for low bandwidth animations and anonymous video chat clients
@@ -77,8 +77,8 @@ Researched and worked with animators and researchers on real time face tracking 
 ### **Software Developer**, Laboratory of Neurological Imaging, USC [(invizian.loni.usc.edu)](http://invizian.loni.usc.edu) `Aug 2013 - Dec 2013`
 Worked under the supervision of Dr. John Van Horn as part of the Information Visualization project, a platform to interact and research on large amounts of brain data
 
-### **Intern**, Bharat Heavy Electrical Ltd, India `June 2011 - July 2011`
-Designed an assembly level microcontroller program to measure the bend angles in pipes of different sizes.
+<!-- ### **Intern**, Bharat Heavy Electrical Ltd, India `June 2011 - July 2011`
+Designed an assembly level microcontroller program to measure the bend angles in pipes of different sizes. -->
 
 ## Other Research Works
 
@@ -131,7 +131,7 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 
 ## Co-Mentoring
 ### Carlos Hurtado Comín, Universitat Politècnica de Catalunya (Visiting Researcher, USC) `Mar 2022 - Present`
-### Aryan Gulati, University of Southern California (CURVE program, USC) `Aug 2021 - April 2021`
+### Aryan Gulati, University of Southern California (CURVE program, USC) `Aug 2021 - Present`
 ### David Bonet Solé, Universitat Politècnica de Catalunya (Visiting Researcher, USC) `Dec 2020 - Aug 2021`
 ### Keisuke Nonaka, KDDI Research (Visiting Researcher, USC) `Aug 2019 - July 2020`
 
@@ -141,10 +141,8 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 ### Course Grader, EE 483 Introduction to DSP, Prof. Edgar Satorius `Spring 2013`
 
 ## Academic and Co Curricular Activities
-- Reviewer, ICLR 2022, NeurIPS 2022, IEEE JSAIT, LoG 2022
+- Reviewer, ICLR 2022, NeurIPS 2022, IEEE JSAIT, LoG 2022, ICML 2023
 - Mentor, Viterbi Graduate Mentorship Program, Fall 2021
-- Discussant, UAI 2021
-- Volunteer, NeurIPS, ICLR, ICML
 - Viterbi Graduate Student Association (VGSA) Senator, Fall 2017, Spring 2020
 - Volunteer, USC Vision and Voices, 2018
 - *Coordinator*, ECE Campus Placement Committee 2012, NIT-Tiruchirappalli
@@ -158,7 +156,11 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 
 Last updated: Oct 2021 -->
 
-<!-- - Attended BayLearn 2018 (Machine Learning Symposium)  
+<!-- 
+- Discussant, UAI 2021
+- Volunteer, NeurIPS, ICLR, ICML
+
+- Attended BayLearn 2018 (Machine Learning Symposium)  
 - *Organizer*, Guest Lectures,  Probe 2010, ECE Department, NIT, Tiruchirappalli
 - *Event Coordinator*, Pip Bot Robotic Event,  Pragyan 2009, NIT, Tiruchirapalli
 - Attended *Bay Area Deep Learning School, 2016*.
