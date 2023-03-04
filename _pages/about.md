@@ -14,6 +14,9 @@ I'm interested in graphs and machine learning.
 Currently, I focus on non-parametric, neighborhood algorithms for understanding data and deep learning models. Read about one research direction I'm currently pursuing [here](/files/Research_proposal_Sarath_Shekkizhar.pdf). 
 
 I'm in the job market for a research/postdoctoral position. Please send me an email if you think I'll be a good fit - I would be happy to discuss my research and aspirations. [[Research Statement](/files/Research_Statement.pdf)] 
+
+Want to connect, collaborate, or chat about grad school, research, etc.? Schedule a [virtual meeting here]([#link](https://calendar.app.google/VXEYajKQhJbhwspZ6)){: .btn .btn--info} 
+
 <!-- An overaching theme that has been driving my research is the need for high performing, extremely simple and explainable systems. -->
 {% capture whats-new %}
 ## What's New
