@@ -20,6 +20,8 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 <!-- An overaching theme that has been driving my research is the need for high performing, extremely simple and explainable systems. -->
 {% capture whats-new %}
 ## What's New
+[Apr 2023] I defended my Ph.D. thesis Neighborhood and Graph Constructions using NNK. [Google slides](https://docs.google.com/presentation/d/1yjkLvJgQCnnMuI0PfB6yVLEJGejN3JpMqUIqAUMKTuM/edit?usp=sharing)
+
 [Feb 2023] I will be sharing my work with a broader audience at [USC WiSE STEM Bytes Seminar](https://wise.usc.edu/event/stem-bytes-seminar-13/)
 
 [Oct 2022] Carlos's work posted on arxiv: [Study of Manifold Geometry using Multiscale Non-Negative Kernel Graphs](https://arxiv.org/abs/2210.17475v1)
