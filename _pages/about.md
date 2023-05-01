@@ -20,7 +20,7 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 <!-- An overaching theme that has been driving my research is the need for high performing, extremely simple and explainable systems. -->
 {% capture whats-new %}
 ## What's New
-[Apr 2023] I have been named a Rising star in Signal Processing. I will be presenting my research as part of the inaugural cohort at [ICASSP 2023](https://2023.ieeeicassp.org)
+[Apr 2023] I have been named a Rising star in Signal Processing. I will be presenting my work as part of the inaugural cohort at [ICASSP](https://2023.ieeeicassp.org)
 
 [Apr 2023] I defended my Ph.D. thesis Neighborhood and Graph Constructions using NNK. [Google slides](https://docs.google.com/presentation/d/1yjkLvJgQCnnMuI0PfB6yVLEJGejN3JpMqUIqAUMKTuM/edit?usp=sharing)
 
@@ -36,9 +36,9 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 
 [May 2022] I will be presenting at *Advances in Learning for Graphs, Manifolds, and Geometric Data*, [SIAM MDS22](https://www.siam.org/conferences/cm/conference/mds22)
 
+<!--
 [Jan 2022] Channel redundancy and overlap in CNNs with Channel-wise NNK graphs with David accepted at [ICASSP 2022](https://2022.ieeeicassp.org/)
 
-<!--
 [Oct 2021] Paper on arxiv: [NNK-Means: Dictionary learning using Non-Negative Kernel Regression](https://arxiv.org/abs/2110.08212)
 
 [Sept 2021] Revisiting nearest neighbors from a signal approximation perspective will be presented at [BayLearn 2021](https://baylearn-org.github.io/www/index.html)
