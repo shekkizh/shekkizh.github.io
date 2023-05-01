@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 Hi,
-I'm Sarath, a Ph.D. candidate in Ming Hsieh Department of Electrical and Computer Engineering at University of Southern California. My research advisor is [Prof. Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio).
+I'm Sarath, a Ph.D. graduate from Ming Hsieh Department of Electrical and Computer Engineering at University of Southern California. My research advisor is [Prof. Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio).
 
 I'm interested in graphs and machine learning. 
 Currently, I focus on non-parametric, neighborhood algorithms for understanding data and deep learning models. Read about one research direction I'm currently pursuing [here](/files/Research_proposal_Sarath_Shekkizhar.pdf). 
@@ -20,7 +20,11 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 <!-- An overaching theme that has been driving my research is the need for high performing, extremely simple and explainable systems. -->
 {% capture whats-new %}
 ## What's New
+[Apr 2023] I have been named a Rising star in Signal Processing. I will be presenting my research as part of the inaugural cohort at [ICASSP 2023](https://2023.ieeeicassp.org)
+
 [Apr 2023] I defended my Ph.D. thesis Neighborhood and Graph Constructions using NNK. [Google slides](https://docs.google.com/presentation/d/1yjkLvJgQCnnMuI0PfB6yVLEJGejN3JpMqUIqAUMKTuM/edit?usp=sharing)
+
+[Mar 2023] I will be attending [ICASSP at Rhodes, Greece](https://2023.ieeeicassp.org/) and [GSP Workshop at Univ. of Oxford](https://gspworkshop.org/). Ping me if you want to chat/hangout! 
 
 [Feb 2023] I will be sharing my work with a broader audience at [USC WiSE STEM Bytes Seminar](https://wise.usc.edu/event/stem-bytes-seminar-13/)
 
