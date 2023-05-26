@@ -13,14 +13,14 @@ I'm Sarath, a Ph.D. graduate from Ming Hsieh Department of Electrical and Comput
 I'm interested in graphs and machine learning. 
 Currently, I focus on non-parametric, neighborhood algorithms for understanding data and deep learning models. Read about one research direction I'm currently pursuing [here](/files/Research_proposal_Sarath_Shekkizhar.pdf). 
 
-I'm in the job market for a research/postdoctoral position. Please send me an email if you think I'll be a good fit - I would be happy to discuss my research and aspirations. [[Research Statement](/files/Research_Statement.pdf)] 
+<!-- I'm in the job market for a research/postdoctoral position. Please send me an email if you think I'll be a good fit - I would be happy to discuss my research and aspirations. [[Research Statement](/files/Research_Statement.pdf)]  -->
 
 Want to connect, collaborate, or chat about grad school, research, etc.? Schedule a meeting here: [Google Meet](https://calendar.app.google/VXEYajKQhJbhwspZ6){: .btn .btn--info}
 
 <!-- An overaching theme that has been driving my research is the need for high performing, extremely simple and explainable systems. -->
 {% capture whats-new %}
 ## What's New
-[Apr 2023] I have been named a Rising star in Signal Processing. I will be presenting my work as part of the inaugural cohort at [ICASSP](https://2023.ieeeicassp.org)
+[Apr 2023] I have been named a [Rising Star in Signal Processing](https://2023.ieeeicassp.org/rising-stars-workshop/). I will be presenting my work as part of the inaugural cohort at [ICASSP](https://2023.ieeeicassp.org)
 
 [Apr 2023] I defended my Ph.D. thesis Neighborhood and Graph Constructions using NNK. [Google slides](https://docs.google.com/presentation/d/1yjkLvJgQCnnMuI0PfB6yVLEJGejN3JpMqUIqAUMKTuM/edit?usp=sharing)
 
