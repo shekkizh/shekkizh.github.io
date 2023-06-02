@@ -26,7 +26,7 @@ redirect_from:
 
 ## Education
 
-### **Ph.D.** in Electrical and Computer Engineering  `Aug 2017 - Present`
+### **Ph.D.** in Electrical and Computer Engineering  `Aug 2017 - May 2023`
 
 ```
 GPA: 3.93
@@ -141,6 +141,7 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 ### Course Grader, EE 483 Introduction to DSP, Prof. Edgar Satorius `Spring 2013`
 
 ## Academic and Co Curricular Activities
+- **IEEE Rising Star in Signal Processing** awarded at ICASSP 2023
 - Reviewer, ICLR 2022, NeurIPS 2022, IEEE JSAIT, LoG 2022, ICML 2023
 - Mentor, Viterbi Graduate Mentorship Program, Fall 2021
 - Viterbi Graduate Student Association (VGSA) Senator, Fall 2017, Spring 2020
