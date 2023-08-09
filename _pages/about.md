@@ -8,23 +8,30 @@ redirect_from:
   - /about.html
 ---
 Hi,
-I'm Sarath, a Ph.D. graduate from Ming Hsieh Department of Electrical and Computer Engineering at University of Southern California. My research advisor is [Prof. Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio).
+I'm Sarath, a member of the technical staff at [Tenyx](https://www.tenyx.com/), where I'm part of the research team building the next generation of A.I. 
+I obtained my Ph.D. from the Ming Hsieh Department of Electrical and Computer Engineering at the University of Southern California, where I worked with [Prof. Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio).
 
-I'm interested in graphs and machine learning. 
-Currently, I focus on non-parametric, neighborhood algorithms for understanding data and deep learning models. Read about one research direction I'm currently pursuing [here](/files/Research_proposal_Sarath_Shekkizhar.pdf). 
+My research interests span a range of topics, from classical signal processing to machine learning. 
+During my Ph.D., I focus on non-parametric, neighborhood/graph algorithms for understanding data and deep learning models. 
 
-I'm in the job market for a research/postdoctoral position. Please send me an email if you think I'll be a good fit - I would be happy to discuss my research and aspirations. [[Research Statement](/files/Research_Statement.pdf)] 
+
+<!-- Read about one research direction I'm currently pursuing [here](/files/Research_proposal_Sarath_Shekkizhar.pdf). 
+I'm in the job market for a research/postdoctoral position. Please send me an email if you think I'll be a good fit - I would be happy to discuss my research and aspirations. [[Research Statement](/files/Research_Statement.pdf)] -->
 
 Want to connect, collaborate, or chat about grad school, research, etc.? Schedule a meeting here: [Google Meet](https://calendar.app.google/VXEYajKQhJbhwspZ6){: .btn .btn--info}
 
-<!-- An overaching theme that has been driving my research is the need for high performing, extremely simple and explainable systems. -->
+<!-- An overarching theme that has been driving my research is the need for high-performing, extremely simple, and explainable systems. -->
 {% capture whats-new %}
 ## What's New
-[Apr 2023] I have been named a Rising star in Signal Processing. I will be presenting my work as part of the inaugural cohort at [ICASSP](https://2023.ieeeicassp.org)
+[July 2023] Internship work at Google, *Data Sampling using Locality Sensitive Hashing for Large Scale Graph Learning*, will be presented at [MLG workshop](http://www.mlgworkshop.org/2023/), [KDD 2023](https://kdd.org/kdd2023/).
 
-[Apr 2023] I defended my Ph.D. thesis Neighborhood and Graph Constructions using NNK. [Google slides](https://docs.google.com/presentation/d/1yjkLvJgQCnnMuI0PfB6yVLEJGejN3JpMqUIqAUMKTuM/edit?usp=sharing)
+[June 2023] Joining Tenyx! I will be working on developing novel research solutions to fast, efficient, and continual learning paradigms and architectures.
 
-[Mar 2023] I will be attending [ICASSP at Rhodes, Greece](https://2023.ieeeicassp.org/) and [GSP Workshop at Univ. of Oxford](https://gspworkshop.org/). Ping me if you want to chat/hangout! 
+[Apr 2023] I have been named a Rising Star in Signal Processing. I will be presenting my work as part of the inaugural cohort at [ICASSP](https://2023.ieeeicassp.org)
+
+[Apr 2023] I defended my Ph.D. thesis, Neighborhood and Graph Constructions using NNK. [Google slides](https://docs.google.com/presentation/d/1yjkLvJgQCnnMuI0PfB6yVLEJGejN3JpMqUIqAUMKTuM/edit?usp=sharing)
+
+[Mar 2023] I will be attending [ICASSP at Rhodes, Greece](https://2023.ieeeicassp.org/) and [GSP Workshop at Univ. of Oxford](https://gspworkshop.org/). Ping me if you want to chat/hang out! 
 
 [Feb 2023] I will be sharing my work with a broader audience at [USC WiSE STEM Bytes Seminar](https://wise.usc.edu/event/stem-bytes-seminar-13/)
 
@@ -32,7 +39,7 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 
 [Sept 2022] I have been selected as a finalist for 2022-23 [Ming-Hsieh Ph.D. Scholar program](https://minghsiehece.usc.edu/mhi-home/mhi-mhi-scholars/).
 
-[Aug 2022] I will be interning at Google with counter-abuse technology and graph-mining team.
+[Aug 2022] I will be interning at Google with the counter-abuse technology and graph-mining team.
 
 [May 2022] I will be presenting at *Advances in Learning for Graphs, Manifolds, and Geometric Data*, [SIAM MDS22](https://www.siam.org/conferences/cm/conference/mds22)
 
@@ -43,7 +50,7 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 
 [Sept 2021] Revisiting nearest neighbors from a signal approximation perspective will be presented at [BayLearn 2021](https://baylearn-org.github.io/www/index.html)
 
-[Aug 2021] Channel-Wise Early stopping without a validation set via NNK interpolation with David accpeted at [APSIPA 2021](https://www.apsipa2021.org/)
+[Aug 2021] Channel-Wise Early stopping without a validation set via NNK interpolation with David accepted at [APSIPA 2021](https://www.apsipa2021.org/)
 
 [July 2021] Model selection and explainability in neural networks using NNK accepted at [Asilomar 2021](https://asilomarsscconf.org/)
 [Jan 2021] [Revisiting local neighborhood methods in machine learning](https://ieeexplore.ieee.org/abstract/document/9523409) accepted at [DSLW 2021](http://conferences.ece.ubc.ca/dslw2021/#/)
@@ -56,15 +63,15 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 
 [May 2020] [Efficient graph construction for image representation](https://arxiv.org/abs/2002.06662) accepted at ICIP 2020
 
-[Feb 2020] [Graph Construction from Data by Non-Negative Kernel Regression](https://arxiv.org/abs/1910.09383) accpeted at ICASSP 2020
+[Feb 2020] [Graph Construction from Data by Non-Negative Kernel Regression](https://arxiv.org/abs/1910.09383) accepted at ICASSP 2020
 -->
 {% endcapture %}
 <div class="notice--info">{{whats-new | markdownify}}</div>
 
 
 ## Background 
-Prior to joining USC for my PhD, I worked as a software engineer for 2.5 years at KLA-Tencor's Wafer Inspection Division on a defect classification software.
+Prior to joining USC for my Ph.D., I worked as a software engineer for 2.5 years at KLA-Tencor's Wafer Inspection Division on defect classification software.
 
-I obtained my Masters degree with specialization in computer vision and machine learning from USC. During my study, I had the opportunity to work as part of the computer vision research group at USC Institute for Robotics and Intelligent Systems where I was advised by Dr. Jongmoo Choi under the guidance of Prof. Gerard Medioni.  I was also a part time software developer at Laboratory of Neurological Imaging where I worked on project Informatics Visualization in NeuroImaging (INVIZIAN) led by Prof. John Van Horn. 
+I obtained my Master's degree with a specialization in computer vision and machine learning from USC. During my study, I had the opportunity to work as part of the computer vision research group at USC Institute for Robotics and Intelligent Systems, where I was advised by Dr. Jongmoo Choi under the guidance of Prof. Gerard Medioni.  I was also a part-time software developer at the Laboratory of Neurological Imaging, where I worked on the project Informatics Visualization in NeuroImaging (INVIZIAN) led by Prof. John Van Horn. 
 
 I completed my Bachelors degree in Electronics and Communication from National Institute of Technology - Tiruchrappalli, where I worked under the advise of Profs. Deivalakshmi and Palanisamy.
