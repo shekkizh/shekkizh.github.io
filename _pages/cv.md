@@ -87,7 +87,6 @@ Designed an assembly level microcontroller program to measure the bend angles in
 ### **Manifold embedding using NNK Graphs** `Jan 2020 - May 2020`
 Revisited data embedding using graphs in terms of robustness and stability with respect to hyperparameters. NNK graphs are significantly sparser compared to other graph constructions, while being able to capture the structure of noisy manifolds.
 
-
 ### **Manifold Regularized Variational Autoencoder (VAE)** `Aug 2019 - Dec 2019`
 Studied disentanglement in VAEs with explicit regularization using graphs. This work was motivated from the perspective of locality often enforced in autoencoders using noisy sampling of embeddings.
 
@@ -132,8 +131,8 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 *Highlights*: Eye Tracking, Facial Tracking and Localization, Seam carving, Image Stitching, Image calibration, Image filters, Object detection and processing
 
 ## Co-Mentoring
-### Carlos Hurtado Comín, Universitat Politècnica de Catalunya (Visiting Researcher, USC) `Mar 2022 - Present`
-### Aryan Gulati, University of Southern California (CURVE program, USC) `Aug 2021 - Present`
+### Carlos Hurtado Comín, Universitat Politècnica de Catalunya (Visiting Researcher, USC) `Mar 2022 - June 2023`
+### Aryan Gulati, University of Southern California (CURVE program, USC) `Aug 2021 - June 2023`
 ### David Bonet Solé, Universitat Politècnica de Catalunya (Visiting Researcher, USC) `Dec 2020 - Aug 2021`
 ### Keisuke Nonaka, KDDI Research (Visiting Researcher, USC) `Aug 2019 - July 2020`
 

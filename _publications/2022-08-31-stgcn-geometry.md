@@ -5,8 +5,7 @@ permalink: /publication/2022-08-31-stgcn-geometry
 authors: 'P. Das, S. Shekkizhar, A. Ortega'
 excerpt: 'Spatio-temporal graph convolutional networks (STGCNs) have emerged as a desirable model for many applications including skeleton-based human action recognition. Despite achieving state-of-the-art performance, our limited understanding of the representations learned by these models  hinders their application in critical and real-world settings. '
 date: 2022-08-31
-venue: 'Under review (IEEE Open Journal of Signal Processing)
-'
+venue: 'Under review (IEEE Open Journal of Signal Processing)'
 citation: '@misc{das2022geometry,
     title={Towards a geometric understanding of Spatio Temporal Graph Convolution Networks},
     author={Pratyusha Das, Sarath Shekkizhar, Antonio Ortega},
