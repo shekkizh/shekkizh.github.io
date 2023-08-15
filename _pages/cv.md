@@ -24,7 +24,7 @@ redirect_from:
 <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true" style="margin-left:1em"></i> {{ author.github }}</a>
 </div>
 
-### Member of Technical Staff, Tenyx `June 2023 - Present`
+### **Member of Technical Staff, Tenyx** `June 2023 - Present`
 
 ## Education
 
