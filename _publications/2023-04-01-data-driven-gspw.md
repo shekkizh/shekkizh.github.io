@@ -5,7 +5,7 @@ permalink: /publication/2023-04-01-data-driven-gspw
 authors: 'S. Shekkizhar, A. Ortega'
 excerpt: 'Deep learning approaches have achieved unprecedented performance success in many application domains. In this work, we first present an empirical framework for studying deep learning by characterizing the geometry of the data manifold in the embedding spaces, using computationally efficient graph-based methods to learn manifold properties.'
 date: 2023-04-01
-venue: 'Graph Signal Processing Workshop 2023'
+venue: 'Graph Signal Processing Workshop'
 citation: '@misc{shekkizhar2023data,
     title={A data-driven graph framework for geometric understanding of deep learning},
     author={Sarath Shekkizhar, Antonio Ortega},
