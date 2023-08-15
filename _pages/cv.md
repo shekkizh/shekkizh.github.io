@@ -24,6 +24,8 @@ redirect_from:
 <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true" style="margin-left:1em"></i> {{ author.github }}</a>
 </div>
 
+### Member of Technical Staff, Tenyx `June 2023 - Present`
+
 ## Education
 
 ### **Ph.D.** in Electrical and Computer Engineering  `Aug 2017 - May 2023`
@@ -110,7 +112,7 @@ A neural network based character recognition system for use with motor vehicle l
 ### **Classification of Mammograms**, Prof. S. Deivalakshmi `Aug 2011 - Dec 2011`
 A method to differentiate and identify the nature of tumor in mammograms using discriminant analysis on extracted features was developed and evaluated on the MIAS database.
 
-## Side Projects
+## Open-source Works
 ### **Deeplearning Projects using Tensorflow** [(github.com/shekkizh/TensorflowProjects)](https://github.com/shekkizh/TensorflowProjects) 
 *Highlights*: DCGAN for generating flowers/ faces, Face completion using context, Deep dream, VGG visualization, Image Inversion, Style Transfer
 
@@ -142,8 +144,10 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 
 ## Academic and Co Curricular Activities
 - **IEEE Rising Star in Signal Processing** awarded at ICASSP 2023
-- Reviewer, ICLR 2022, NeurIPS 2022, IEEE JSAIT, LoG 2022, ICML 2023
+- Reviewer, IEEE Journals -- JSAIT, TSIPN, SPL, TNNLS
+- Reviewer, Conferences -- ICLR 2022, NeurIPS 2022, LoG 2022, ICML 2023
 - Mentor, Viterbi Graduate Mentorship Program, Fall 2021
+- **IEEE Best Student Paper** Award, ICIP 2020
 - Viterbi Graduate Student Association (VGSA) Senator, Fall 2017, Spring 2020
 - Volunteer, USC Vision and Voices, 2018
 - *Coordinator*, ECE Campus Placement Committee 2012, NIT-Tiruchirappalli

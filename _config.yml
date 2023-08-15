@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sarath Shekkizhar"
 title_separator          : "-"
 name                     : &name "Sarath Shekkizhar"
-description              : &description "Ph.D. ECE, USC"
+description              : &description "To strive, to seek, to find, and not to yield."
 url                      : https://shekkizh.github.io 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shekkizh/shekkizh.github.io"
@@ -80,12 +80,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Sarath Shekkizhar"
+  name             : "Sarath Shekkizhar, Ph.D."
   avatar           : "sarath.jpg"
-  bio              : "Ph.D., <br/> <a style='color: black;' href='https://sites.google.com/usc.edu/stac-lab/home'>STAC Lab</a> <br/> <a style='color: black;' href='https://minghsiehece.usc.edu/'>Electrical & Computer Engineering</a> <br/> Univ. of Southern California"
-  location         : "Los Angeles, CA"
+  bio              : "AI Researcher, <br/><a style='color: black;' href='https://www.tenyx.com/'>Tenyx</a>, <br/> <a style='color: black;' href='https://sites.google.com/usc.edu/stac-lab/home'>STAC Lab</a> <br/> <a style='color: black;' href='https://minghsiehece.usc.edu/'>ECE @ USC</a>"
+  location         : "SF Bay Area, CA"
   email            : "shekkizh at usc dot edu"
-  address          : "3740 McClintock Ave., Los Angeles, CA 90089"
+  address          : "San Francisco Bay Area, California"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=dWd8dQQAAAAJ&hl=en" 
