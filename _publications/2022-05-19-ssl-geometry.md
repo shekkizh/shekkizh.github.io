@@ -5,7 +5,7 @@ permalink: /publication/2022-05-19-ssl-geometry
 authors: 'R. Cosentino, S. Shekkizhar, M. Soltanolkotabi, S. Avestimehr, A. Ortega'
 excerpt: 'The recent popularity of SSL has led to the development of several models that make use of diverse training strategies, architectures, and data augmentation policies with no existing unified framework to study or assess their effectiveness in transfer learning.'
 date: 2022-05-19
-venue: 'In review.'
+venue: 'arXiv Preprints'
 paperurl: 'https://arxiv.org/abs/2209.08622v1'
 citation: '@misc{shekkizhar2022sslgeometry,
     title={The geometry of self-supervised learning models and its impact on Transfer learning},
