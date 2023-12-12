@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 Hi,
-I'm Sarath, a member of the technical staff at [Tenyx](https://www.tenyx.com/), where I'm part of the research team building the next generation of A.I. 
-I obtained my Ph.D. from the Ming Hsieh Department of Electrical and Computer Engineering at the University of Southern California, where I worked with [Prof. Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio).
+I'm Sarath, a member of the technical staff at [Tenyx](https://www.tenyx.com/), where I'm part of the research team building the next generation of AI. 
+My research interests span a range of topics, from signal processing, graph theory to geometric deep learning. 
 
-My research interests span a range of topics, from classical signal processing to machine learning. 
-During my Ph.D., I focus on non-parametric, neighborhood/graph algorithms for understanding data and deep learning models. 
+Previously, I obtained my Ph.D. from the Ming Hsieh Department of Electrical and Computer Engineering at the University of Southern California, where I worked with [Prof. Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio).
+During my Ph.D., I focused on non-parametric, neighborhood/graph algorithms for understanding data and machine learning models. 
 
 
 <!-- Read about one research direction I'm currently pursuing [here](/files/Research_proposal_Sarath_Shekkizhar.pdf). 
@@ -23,16 +23,21 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 <!-- An overarching theme that has been driving my research is the need for high-performing, extremely simple, and explainable systems. -->
 {% capture whats-new %}
 ## What's New
+[Dec 2023] Blog post on one of our research at Tenyx: [Forgetting and Toxicity in LLMs: A Deep Dive on Fine-Tuning Methods](https://www.tenyx.com/post/forgetting-and-toxicity-in-llms-a-deep-dive-on-fine-tuning-methods) 
+
+[Nov 2023] Paper out on arXiv: [Characterizing Large Language Model Geometry Solves Toxicity Detection and Generation](https://arxiv.org/abs/2312.01648)
+
 [July 2023] Internship work at Google, *Data Sampling using Locality Sensitive Hashing for Large Scale Graph Learning*, will be presented at [MLG workshop](http://www.mlgworkshop.org/2023/), [KDD 2023](https://kdd.org/kdd2023/).
 
 [June 2023] Joining Tenyx! I will be working on developing novel research solutions to fast, efficient, and continual learning paradigms and architectures.
 
-[Apr 2023] I have been named a Rising Star in Signal Processing. I will be presenting my work as part of the inaugural cohort at [ICASSP](https://2023.ieeeicassp.org)
+[Apr 2023] I have been named a IEEE Rising Star in Signal Processing. I will be presenting my work as part of the inaugural cohort at [ICASSP](https://2023.ieeeicassp.org)
 
 [Apr 2023] I defended my Ph.D. thesis, Neighborhood and Graph Constructions using NNK. [Google slides](https://docs.google.com/presentation/d/1yjkLvJgQCnnMuI0PfB6yVLEJGejN3JpMqUIqAUMKTuM/edit?usp=sharing)
 
 [Mar 2023] I will be attending [ICASSP at Rhodes, Greece](https://2023.ieeeicassp.org/) and [GSP Workshop at Univ. of Oxford](https://gspworkshop.org/). Ping me if you want to chat/hang out! 
 
+<!--
 [Feb 2023] I will be sharing my work with a broader audience at [USC WiSE STEM Bytes Seminar](https://wise.usc.edu/event/stem-bytes-seminar-13/)
 
 [Oct 2022] Carlos's work posted on arxiv: [Study of Manifold Geometry using Multiscale Non-Negative Kernel Graphs](https://arxiv.org/abs/2210.17475v1)
@@ -43,7 +48,6 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 
 [May 2022] I will be presenting at *Advances in Learning for Graphs, Manifolds, and Geometric Data*, [SIAM MDS22](https://www.siam.org/conferences/cm/conference/mds22)
 
-<!--
 [Jan 2022] Channel redundancy and overlap in CNNs with Channel-wise NNK graphs with David accepted at [ICASSP 2022](https://2022.ieeeicassp.org/)
 
 [Oct 2021] Paper on arxiv: [NNK-Means: Dictionary learning using Non-Negative Kernel Regression](https://arxiv.org/abs/2110.08212)
