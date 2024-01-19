@@ -23,6 +23,8 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 <!-- An overarching theme that has been driving my research is the need for high-performing, extremely simple, and explainable systems. -->
 {% capture whats-new %}
 ## What's New
+[Jan 2024] Leading the work on TenyxChat, a series of language models trained to function as useful assistants. Check it out on [HuggingFace](https://huggingface.co/tenyx)
+
 [Dec 2023] Blog post on one of our research at Tenyx: [Forgetting and Toxicity in LLMs: A Deep Dive on Fine-Tuning Methods](https://www.tenyx.com/post/forgetting-and-toxicity-in-llms-a-deep-dive-on-fine-tuning-methods) 
 
 [Nov 2023] Paper out on arXiv: [Characterizing Large Language Model Geometry Solves Toxicity Detection and Generation](https://arxiv.org/abs/2312.01648)
