@@ -5,8 +5,7 @@ permalink: /publication/2023-06-23-data-sampling-mlg
 authors: 'S. Shekkizhar, N. Bulut, M. Farghal, S. Tavakkol, M. Bateni, A. Nandi'
 excerpt: 'Recent works, such as GRALE, have focused on the semi-supervised setting to learn an optimal similarity function for constructing a task-optimal graph. However, in many scenarios with billions of data points and trillions of potential edges, the run-time and computational requirements for training the similarity model make these approaches impractical. In this work, we consider data sampling as a means to overcome this issue.'
 date: 2023-06-23
-venue: 'International Workshop on Mining and Learning with Graphs, Conference on Knowledge Discovery and Data Mining (KDD)
-'
+venue: 'International Workshop on Mining and Learning with Graphs, KDD'
 paperurl: 'https://www.mlgworkshop.org/2023/papers/MLG__KDD_2023_paper_2.pdf'
 citation: '@inproceedings{mlg2023_2,
 title={Data Sampling using Locality Sensitive Hashing for Large Scale Graph Learning},
