@@ -5,7 +5,8 @@ permalink: /publication/2021-08-15-deepnnk-asilomar
 authors: 'S. Shekkizhar, A. Ortega'
 excerpt: 'Modern machine learning systems based on neural networks have shown great success in learning complex data patterns while being able to make good predictions on unseen data points. However, the limited understanding of these systems hinders further progress and application to several domains in the real world. '
 date: 2021-08-15
-venue: 'Asilomar Conference on Signals, Systems, and Computers'
+venue: 'Asilomar Conference on Signals, Systems, and Computers
+'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/9723382'
 citation: '@article{shekkizhar2020deepnnk,
   title={DeepNNK: Explaining deep models and their generalization using polytope interpolation},
