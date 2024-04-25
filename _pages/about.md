@@ -23,6 +23,8 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 <!-- An overarching theme that has been driving my research is the need for high-performing, extremely simple, and explainable systems. -->
 {% capture whats-new %}
 ## What's New
+[Apr 2024] Work with Pratyusha accepted to Open Journal of Signal Processing. Arxiv version [here](https://arxiv.org/abs/2312.07777)
+
 [Jan 2024] Leading the work on TenyxChat, a series of language models trained to function as useful assistants. Check it out on [HuggingFace](https://huggingface.co/tenyx)
 
 [Dec 2023] Blog post on one of our research at Tenyx: [Forgetting and Toxicity in LLMs: A Deep Dive on Fine-Tuning Methods](https://www.tenyx.com/post/forgetting-and-toxicity-in-llms-a-deep-dive-on-fine-tuning-methods) 
@@ -37,9 +39,9 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 
 [Apr 2023] I defended my Ph.D. thesis, Neighborhood and Graph Constructions using NNK. [Google slides](https://docs.google.com/presentation/d/1yjkLvJgQCnnMuI0PfB6yVLEJGejN3JpMqUIqAUMKTuM/edit?usp=sharing)
 
+<!--
 [Mar 2023] I will be attending [ICASSP at Rhodes, Greece](https://2023.ieeeicassp.org/) and [GSP Workshop at Univ. of Oxford](https://gspworkshop.org/). Ping me if you want to chat/hang out! 
 
-<!--
 [Feb 2023] I will be sharing my work with a broader audience at [USC WiSE STEM Bytes Seminar](https://wise.usc.edu/event/stem-bytes-seminar-13/)
 
 [Oct 2022] Carlos's work posted on arxiv: [Study of Manifold Geometry using Multiscale Non-Negative Kernel Graphs](https://arxiv.org/abs/2210.17475v1)
