@@ -6,7 +6,8 @@ permalink: /publication/2019-10-21-nnk-graph-arxiv
 authors: 'S. Shekkizhar, A. Ortega'
 excerpt: 'Data driven graph constructions are often used in various applications, including several machine learning tasks, where the goal is to make predictions and discover patterns. However, learning an optimal graph from data is still a challenging task. Weighted K-nearest neighbor and ϵ-neighborhood methods are among the most common graph construction methods, due to their computational simplicity but the choice of parameters such as K and ϵ associated with these methods is often ad hoc and lacks a clear interpretation.'
 date: 2019-10-21
-venue: 'Under review (IEEE Transactions on Pattern Analysis and Machine Intelligence)'
+venue: 'Under review (IEEE Transactions on Pattern Analysis and Machine Intelligence)
+'
 paperurl: 'https://arxiv.org/abs/1910.09383'
 citation: '@misc{shekkizhar2023neighborhood,
       title={Neighborhood and Graph Constructions using Non-Negative Kernel Regression}, 

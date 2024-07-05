@@ -13,6 +13,7 @@ My research interests span a range of topics, from signal processing, graph theo
 
 Previously, I obtained my Ph.D. from the Ming Hsieh Department of Electrical and Computer Engineering at the University of Southern California, where I worked with [Prof. Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio).
 During my Ph.D., I focused on non-parametric, neighborhood/graph algorithms for understanding data and machine learning models. 
+ For more details, checkout my [Thesis](https://digitallibrary.usc.edu/asset-management/2A3BF1MSNP2CJ), [Defense Slides](https://docs.google.com/presentation/d/1yjkLvJgQCnnMuI0PfB6yVLEJGejN3JpMqUIqAUMKTuM/edit?usp=sharing).
 
 
 <!-- Read about one research direction I'm currently pursuing [here](/files/Research_proposal_Sarath_Shekkizhar.pdf). 
@@ -23,6 +24,10 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 <!-- An overarching theme that has been driving my research is the need for high-performing, extremely simple, and explainable systems. -->
 {% capture whats-new %}
 ## What's New
+[July 2024] Will be attending [ICML, 2024](https://icml.cc/) in Vienna to present our work LLM geometry and toxicity. Ping me to chat/hang out!
+
+[July 2024] Paper out on arXiv: [Reasoning in Large Language Models: A geometric perspective](https://arxiv.org/abs/2407.02678)
+
 [Apr 2024] Work with Pratyusha accepted to Open Journal of Signal Processing. Arxiv version [here](https://arxiv.org/abs/2312.07777)
 
 [Jan 2024] Leading the work on TenyxChat, a series of language models trained to function as useful assistants. Check it out on [HuggingFace](https://huggingface.co/tenyx)
@@ -33,13 +38,13 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 
 [July 2023] Internship work at Google, *Data Sampling using Locality Sensitive Hashing for Large Scale Graph Learning*, will be presented at [MLG workshop](http://www.mlgworkshop.org/2023/), [KDD 2023](https://kdd.org/kdd2023/).
 
+<!--
 [June 2023] Joining Tenyx! I will be working on developing novel research solutions to fast, efficient, and continual learning paradigms and architectures.
 
 [Apr 2023] I have been named a IEEE Rising Star in Signal Processing. I will be presenting my work as part of the inaugural cohort at [ICASSP](https://2023.ieeeicassp.org)
 
 [Apr 2023] I defended my Ph.D. thesis, Neighborhood and Graph Constructions using NNK. [Google slides](https://docs.google.com/presentation/d/1yjkLvJgQCnnMuI0PfB6yVLEJGejN3JpMqUIqAUMKTuM/edit?usp=sharing)
 
-<!--
 [Mar 2023] I will be attending [ICASSP at Rhodes, Greece](https://2023.ieeeicassp.org/) and [GSP Workshop at Univ. of Oxford](https://gspworkshop.org/). Ping me if you want to chat/hang out! 
 
 [Feb 2023] I will be sharing my work with a broader audience at [USC WiSE STEM Bytes Seminar](https://wise.usc.edu/event/stem-bytes-seminar-13/)
