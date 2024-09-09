@@ -25,7 +25,8 @@ redirect_from:
 </div>
 
 ### **Member of Technical Staff, Tenyx** `June 2023 - Present`
-
+Part of the early team at Tenyx building Voice AI for customer support. Have been primarily focused on research and creating IP. Key accomplishments include research on continual learning [[VB article](https://venturebeat.com/ai/tenyx-aims-to-fix-llms-catastrophic-forgetting-problem/)], building TenyxChat series of models [[VB article](https://venturebeat.com/ai/exclusive-ai-startup-tenyxs-fine-tuned-open-source-llama-3-model-outperforms-gpt-4/)], and geometric characterization of LLMs [[TechPost](https://www.marktechpost.com/2024/07/08/this-ai-research-from-tenyx-explore-the-reasoning-abilities-of-large-language-models-llms-through-their-geometrical-understanding/)]. Was also involved in product development, particularly in endpointing, audio disambiguation, and agent governance.  
+  
 ## Education
 
 ### **Ph.D.** in Electrical and Computer Engineering  `Aug 2017 - May 2023`
