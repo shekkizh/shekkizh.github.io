@@ -24,8 +24,7 @@ redirect_from:
 <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true" style="margin-left:1em"></i> {{ author.github }}</a>
 </div>
 
-### **Member of Technical Staff, Tenyx** `June 2023 - Present`
-Part of the early team at Tenyx building Voice AI for customer support. Have been primarily focused on research and creating IP. Key accomplishments include research on continual learning [[VB article](https://venturebeat.com/ai/tenyx-aims-to-fix-llms-catastrophic-forgetting-problem/)], building TenyxChat series of models [[VB article](https://venturebeat.com/ai/exclusive-ai-startup-tenyxs-fine-tuned-open-source-llama-3-model-outperforms-gpt-4/)], and geometric characterization of LLMs [[HN Discussion](https://news.ycombinator.com/item?id=40899309)]. Was also involved in product development, particularly in endpointing, audio disambiguation, and agent governance.  
+### **Staff (Data) Scientist, Salesforce** `October 2024 - Present`
   
 ## Education
 
@@ -67,6 +66,10 @@ GPA: 9.12
 {% endfor %}
 
 ## Work Experience
+
+### **Member of Technical Staff, Tenyx (Acquired by Salesforce)** `June 2023 - October 2024`
+Part of the founding team at Tenyx building Voice AI for customer support. Was primarily focused on research and creating IP. Key accomplishments include research on continual learning [[VB article](https://venturebeat.com/ai/tenyx-aims-to-fix-llms-catastrophic-forgetting-problem/)], building TenyxChat series of models [[VB article](https://venturebeat.com/ai/exclusive-ai-startup-tenyxs-fine-tuned-open-source-llama-3-model-outperforms-gpt-4/)], and geometric characterization of LLMs [[HN Discussion](https://news.ycombinator.com/item?id=40899309)]. Was also involved in product development, particularly in endpointing, audio disambiguation, and agent governance.  
+
 ### **Research Intern**, Google, Sunnyvale, CA  `Sep 2022 - Dec 2022`
 Host: Mohamed Farghal, Animesh Nandi, Behavior Protections, Counter-Abuse Technology.<br>
 Worked on understanding the impact of input data used in training graph models and scalable sampling approaches to improve semi-supervised graph learning. Preliminary experiments with proposed graph learning showed 3x increased recall in abuse detection.

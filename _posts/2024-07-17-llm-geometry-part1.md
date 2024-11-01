@@ -18,12 +18,9 @@ At Tenyx, we've spent countless hours peering into the intricate workings of Lar
 
 ## (Technical Aspect) Unpacking Transformers in LLM
 
-‍<figure>
-<a href="/images/llm_geometry/attention_geometry.png"><img src="/images/llm_geometry/attention_geometry.png" alt="Attention Geometry"/></a>
-
-<figcaption>
-Figure 1: Illustration of LLM geometry at a single transformer layer for a 3-token input sequence. (Left) Convex hulls induced by two self-attention heads projected onto the output layer. (Middle) The combination of the heads induces a Minkowski sum of the single-head convex hulls. (Right) The output of the multi-head attention is mapped onto the unit circle, which is then partitioned by the continuous piecewise affine mapping.
-</figcaption>
+<figure>
+	<a href="/images/llm_geometry/attention_geometry.png"><img src="/images/llm_geometry/attention_geometry.png" alt="Attention Geometry"/></a>
+	<figcaption> Figure 1: Illustration of LLM geometry at a single transformer layer for a 3-token input sequence. (Left) Convex hulls induced by two self-attention heads projected onto the output layer. (Middle) The combination of the heads induces a Minkowski sum of the single-head convex hulls. (Right) The output of the multi-head attention is mapped onto the unit circle, which is then partitioned by the continuous piecewise affine mapping. </figcaption>
 </figure>
 
 Our research focuses on two critical components of transformer layers in LLM: Multi-Head Attention (MHA) and Multilayer Perceptrons (MLPs). By developing mathematical tools to analyze these components, we've uncovered fundamental properties that enhance our understanding:
@@ -33,12 +30,9 @@ Our research focuses on two critical components of transformer layers in LLM: Mu
 
 ## A Surprising Vulnerability and Its Implications
 
-‍<figure>
-<a href="/images/llm_geometry/rlhf_jailbreak.png"><img src="/images/llm_geometry/rlhf_jailbreak.png" alt="RLHF Jailbreak"/></a>
-
-<figcaption>
-Figure 2: The graph demonstrates an upward trend, with larger positive changes in ID correlating with higher RLHF bypass of Llama models. In our paper, we also propose quantitative experiments highlighting such phenomena.
-</figcaption>
+<figure>
+	<a href="/images/llm_geometry/rlhf_jailbreak.png"><img src="/images/llm_geometry/rlhf_jailbreak.png" alt="RLHF Jailbreak"/></a>
+	<figcaption>Figure 2: The graph demonstrates an upward trend, with larger positive changes in ID correlating with higher RLHF bypass of Llama models. In our paper, we also propose quantitative experiments highlighting such phenomena.</figcaption>
 </figure>
 
 One of our most surprising findings is that our geometric understanding reveals a simple attack that can circumvent existing AI safety measures. We found that prompts—including random words—that increase the "intrinsic dimension" of the input can sometimes cause an LLM to generate toxic content, despite being trained to avoid such behavior using techniques like Reinforcement Learning from Human Feedback (RLHF).

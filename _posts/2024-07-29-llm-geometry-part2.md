@@ -20,9 +20,8 @@ LLMs have revolutionized natural language processing, demonstrating remarkable a
 
 Our research takes a novel approach by examining LLMs through a geometric lens. We've developed a framework that allows us to analyze the intricate structures formed within these models as they process information.
 
-‍<figure>
-<a href="/images/llm_geometry/cpa.png"><img src="/images/llm_geometry/cpa.png" alt="Piecewise Affine Geometry"/></a>
-
+<figure>
+	<a href="/images/llm_geometry/cpa.png"><img src="/images/llm_geometry/cpa.png" alt="Piecewise Affine Geometry"/></a>
 </figure>
 
 By focusing on concepts such as input space partitioning, intrinsic dimension, and the density of self-attention graphs, we've been able to draw connections between the prompt and its impact on reasoning abilities. Our findings not only provide deeper insights into how LLMs function but also suggest new avenues for enhancing their performance.
