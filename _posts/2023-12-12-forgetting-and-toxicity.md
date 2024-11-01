@@ -9,6 +9,8 @@ tags:
   - safety
 categories:
   - research
+toc: true
+toc_sticky: true
 ---
 
 _Written for article published at Tenyx. Co-authors: Romain Cosentino, Ron Chrisley._
@@ -52,7 +54,7 @@ The results of each of these evaluations are displayed, respectively, in figures
 
 ### Proficiency (Learning)
 
-<figure class="half">
+<figure>
 	<a href="/images/forgetting_llm/proficiency.jpeg"><img src="/images/forgetting_llm/proficiency.jpeg" alt="Proficiency"/></a>
 	<figcaption>
 		Figure 1: Learning Capability of Fine-tuning Approaches. Shown is the percentage correct on a hotel booking task before and after each of the four different methods of fine-tuning are applied. Percentage highlighted on top of each post fine-tuning bar reflects the net change in proficiency provided by that fine-tuning method.
@@ -63,7 +65,7 @@ We observe that the model fine-tuned by the Tenyx method results in the highest-
 
 ### Safety (Toxicity)
 
-<figure class="half">
+<figure>
 	<a href="/images/forgetting_llm/safety.jpeg"><img src="/images/forgetting_llm/safety.jpeg" alt="Safety"/></a>
 	<figcaption>
 		Figure 2: Safety reduction induced by Fine-tuning Approaches Shown is the percentage of safe/appropriate responses to toxic inputs from the Toxigen dataset, before and after each of the four different methods of fine-tuning. Percentage highlighted on top of each post fine-tuning bar reflects the net change in performance provided by that fine-tuning method.
@@ -74,7 +76,7 @@ Figure 2 illustrates the most striking results of our investigations. It shows h
 
 ### Knowledge (Forgetting)
 
-<figure class="half">
+<figure>
 	<a href="/images/forgetting_llm/knowledge.jpeg"><img src="/images/forgetting_llm/knowledge.jpeg" alt="Safety"/></a>
 	<figcaption>
 		Figure 3: Forgetting induced by Fine-tuning Approaches. Shown is the percentage correct on an open-source dataset (Dolly Q&A) before and after each of the four different methods of fine-tuning is applied. Percentage highlighted on top of each post fine-tuning bar reflects the net change in performance provided by that fine-tuning method.
