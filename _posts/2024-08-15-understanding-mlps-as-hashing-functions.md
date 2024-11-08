@@ -11,7 +11,6 @@ tags:
 toc: true
 toc_sticky: true
 ---
-WORK IN PROGRESS. 
 _Note: This is based on a presentation done at Tenyx_
 
 # Understanding MLPs Through the Lens of Hashing
