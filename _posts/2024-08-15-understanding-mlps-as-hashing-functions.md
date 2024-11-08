@@ -24,10 +24,10 @@ This mental model, which I'll share from my research experiences at Tenyx, provi
 ## The Basic Building Block: Neurons as Hyperplanes
 <figure>
   <a href="/images/mlp_partitions/neuron_plane.webp"><img src="/images/mlp_partitions/neuron_plane.webp" alt="Neuron Partition"/></a>
-  <figcaption> Figure 1: Illustration of a neuron as a partition of the input space. The hyperplane, defined via the normal, corresponding to a single neuron with ReLU activation, splits the input space into positive and negative half-spaces. Data points with a positive dot product with the neuron weight vector correspond to the positive space and vice-versa. For additional details about hyperplanes and partitions, refer to [this blog at Pinecone](https://www.pinecone.io/learn/series/faiss/locality-sensitive-hashing-random-projection/#Random-Hyperplanes). </figcaption>
+  <figcaption> Figure 1: Illustration of a neuron as a partition of the input space. The hyperplane, defined via the normal, corresponding to a single neuron with ReLU activation, splits the input space into positive and negative half-spaces. Data points with a positive dot product with the neuron weight vector correspond to the positive space and vice-versa. </figcaption>
 </figure>
 
-At its core, a single neuron (perceptron) acts as a hyperplane that divides the input space into two regions. When we apply a ReLU activation function, we're essentially deciding which side of this hyperplane we're interested in. This simple geometric interpretation leads to a fascinating observation: **each neuron creates a partition in the input space**.
+At its core, a single neuron (perceptron) acts as a hyperplane that divides the input space into two regions. When we apply a ReLU activation function, we're essentially deciding which side of this hyperplane we're interested in. This simple geometric interpretation leads to a fascinating observation: **each neuron creates a partition in the input space**. For details about hashing, hyperplanes, and partitions, refer to [this blog at Pinecone](https://www.pinecone.io/learn/series/faiss/locality-sensitive-hashing-random-projection/#Random-Hyperplanes).
 
 <figure>
   <a href="/images/mlp_partitions/1layer.png"><img src="/images/mlp_partitions/1layer.png" alt="1 layer network"/></a>
