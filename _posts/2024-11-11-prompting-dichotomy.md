@@ -1,6 +1,6 @@
 ---
 title: "Open-ended vs Descriptive Prompting: Finding the right balance in your AI use-cases"
-date: 2024-08-15
+date: 2024-11-15
 excerpt: When working with language models, the way we phrase our prompts can dramatically affect the quality and usefulness of the responses we receive. In this post we explore the dichotomy in setting up prompts - being open-ended vs descriptive - and understand the implication of each.
 permalink: /posts/2024/11/prompting-dichotomy/
 categories:
