@@ -52,7 +52,7 @@ The benefits of this approach include:
 
 However, open-ended prompts can lead to:
 
-- Inefficient for use-cases where speed is crucial.
+- Inefficiency for use-cases where speed is crucial.
 - Multiple follow-ups. If not generating enough context, the model might fall short in answering and would require multiple steps before achieving required context to respond correctly.
 - Hallucinated or unstructured responses. The initial text generated sets the stage for the future response. Consequently, this approach is often unpredictable.
 
