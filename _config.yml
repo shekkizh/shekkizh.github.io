@@ -153,6 +153,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  patents:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
