@@ -26,6 +26,8 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 
 ## What's New
 
+[Jan 2025] Will be speaking at [Salesforce TDX 2025](https://www.salesforce.com/tdx/) on [what makes voice AI different!](https://reg.salesforce.com/flow/plus/tdx25/sessioncatalog/page/catalog?search=%22Sarath%20Shekkizhar%22) Reach out if you want to chat/hang out!
+
 [Sept 2024] Tenyx joins Salesforce to built Agentforce's next generation voice and AI technology - [Announcement](https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-tenyx/)
 
 [July 2024] Will be attending [ICML, 2024](https://icml.cc/) in Vienna to present our work LLM geometry and toxicity. Ping me to chat/hang out!
@@ -40,9 +42,9 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 
 [Nov 2023] Paper out on arXiv: [Characterizing Large Language Model Geometry Solves Toxicity Detection and Generation](https://arxiv.org/abs/2312.01648)
 
+<!--
 [July 2023] Internship work at Google, _Data Sampling using Locality Sensitive Hashing for Large Scale Graph Learning_, will be presented at [MLG workshop](http://www.mlgworkshop.org/2023/), [KDD 2023](https://kdd.org/kdd2023/).
 
-<!--
 [June 2023] Joining Tenyx! I will be working on developing novel research solutions to fast, efficient, and continual learning paradigms and architectures.
 
 [Apr 2023] I have been named a IEEE Rising Star in Signal Processing. I will be presenting my work as part of the inaugural cohort at [ICASSP](https://2023.ieeeicassp.org)
