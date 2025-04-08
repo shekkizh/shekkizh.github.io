@@ -27,9 +27,9 @@ redirect_from:
 
 </div>
 
-### **Staff (Data) Scientist, Salesforce** `October 2024 - Present`
+### **Staff Scientist, Salesforce** `October 2024 - Present`
 
-Working on foundational and applied research on AI agents with focus on improving reasoning and safety.
+Working on foundational and applied research on AI agents with a focus on improving reasoning and safety.
 
 ## Education
 
@@ -103,11 +103,11 @@ Designed and developed tools to classify and visualize defect modulations for Pr
 
 ### **Freelance Researcher**, Toonchat [(Demo: youtu.be/B7LyoWksHHE)](https://youtu.be/B7LyoWksHHE) `Jan 2014 - Jun 2014`
 
-Researched and worked with animators and researchers on real time face tracking under the advise of Dr. Eric Petajan for low bandwidth animations and anonymous video chat clients
+Researched and worked with animators and researchers on real-time face tracking under the advice of Dr. Eric Petajan for low bandwidth animations and anonymous video chat clients
 
 ### **Software Developer**, Laboratory of Neurological Imaging, USC [(invizian.loni.usc.edu)](http://invizian.loni.usc.edu) `Aug 2013 - Dec 2013`
 
-Worked under the supervision of Dr. John Van Horn as part of the Information Visualization project, a platform to interact and research on large amounts of brain data
+Worked under the supervision of Dr. John Van Horn as part of the Information Visualization project, a platform to interact and analyse large amounts of brain data
 
 <!-- ### **Intern**, Bharat Heavy Electrical Ltd, India `June 2011 - July 2011`
 Designed an assembly level microcontroller program to measure the bend angles in pipes of different sizes. -->
@@ -176,7 +176,7 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 
 ### Course Grader, EE 483 Introduction to DSP, Prof. Edgar Satorius `Summer, Spring 2013`
 
-## Academic and Co Curricular Activities
+## Academic and Co-Curricular Activities
 
 - **IEEE Rising Star in Signal Processing** awarded at ICASSP 2023
 - Reviewer, IEEE Journals -- JSAIT, TSIPN, SPL, TNNLS
@@ -184,17 +184,17 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 - Mentor, Viterbi Graduate Mentorship Program, Fall 2021
 - **IEEE Best Student Paper** Award, ICIP 2020
 - Viterbi Graduate Student Association (VGSA) Senator, Fall 2017, Spring 2020
-- _Coordinator_, ECE Campus Placement Committee 2012, NIT-Tiruchirappalli
-- _Organizer_, Guest Lecturs, Texas Instruments workshop, ECE Probe 2010 & 2011, NIT-Tiruchirappalli
-- _Event Manager_, Robotic Event, Pragyan 2009 & 2010, NIT-Tiruchirapalli
-- Ranked among the top 1%, All India Engineering Entrance Exam, 2008
-- Ranked among the top 10%, Talent Exam 2007, National Assoc. of Physics and Chemistry Teachers
 
 <!-- ### Footer
 
 Last updated: Oct 2021 -->
 
 <!--
+- _Coordinator_, ECE Campus Placement Committee 2012, NIT-Tiruchirappalli
+- _Organizer_, Guest Lectures, Texas Instruments workshop, ECE Probe 2010 & 2011, NIT-Tiruchirappalli
+- _Event Manager_, Robotic Event, Pragyan 2009 & 2010, NIT-Tiruchirapalli
+- Ranked among the top 1%, All India Engineering Entrance Exam, 2008
+- Ranked among the top 10%, Talent Exam 2007, National Assoc. of Physics and Chemistry Teachers
 - Discussant, UAI 2021
 - Volunteer, NeurIPS, ICLR, ICML
 - Volunteer, USC Vision and Voices, 2018
