@@ -26,7 +26,7 @@ Want to connect, collaborate, or chat about grad school, research, etc.? Schedul
 
 ## What's New
 
-[Jan 2025] Will be speaking at [Salesforce TDX 2025](https://www.salesforce.com/tdx/) on [what makes voice AI different!](https://reg.salesforce.com/flow/plus/tdx25/sessioncatalog/page/catalog?search=%22Sarath%20Shekkizhar%22) Reach out if you want to chat/hang out!
+[Jan 2025] Will be speaking at [Salesforce TDX 2025](https://www.salesforce.com/tdx/) on [what makes voice AI different!](https://reg.salesforce.com/flow/plus/tdx25/sessioncatalog/page/catalog?search=%22Sarath%20Shekkizhar%22) Reach out if you want to chat!
 
 [Sept 2024] Tenyx joins Salesforce to build Agentforce's next-generation voice and AI technology - [Announcement](https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-tenyx/)
 

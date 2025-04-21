@@ -27,7 +27,9 @@ redirect_from:
 
 </div>
 
-### **Staff Scientist, Salesforce** `October 2024 - Present`
+---
+
+### **Staff Scientist, Salesforce**
 
 Working on foundational and applied research on AI agents with a focus on improving reasoning and safety.
 
@@ -103,9 +105,9 @@ Designed and developed tools to classify and visualize defect modulations for Pr
 
 ### **Freelance Researcher**, Toonchat [(Demo: youtu.be/B7LyoWksHHE)](https://youtu.be/B7LyoWksHHE) `Jan 2014 - Jun 2014`
 
-Researched and worked with animators and researchers on real-time face tracking under the advice of Dr. Eric Petajan for low bandwidth animations and anonymous video chat clients
+Worked with animators and researchers on real-time face tracking under the advice of Dr. Eric Petajan for low bandwidth animations and anonymous video chat clients
 
-### **Software Developer**, Laboratory of Neurological Imaging, USC [(invizian.loni.usc.edu)](http://invizian.loni.usc.edu) `Aug 2013 - Dec 2013`
+### **Software Developer**, Laboratory of Neurological Imaging, USC `Aug 2013 - Dec 2013`
 
 Worked under the supervision of Dr. John Van Horn as part of the Information Visualization project, a platform to interact and analyse large amounts of brain data
 
@@ -184,6 +186,14 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 - Mentor, Viterbi Graduate Mentorship Program, Fall 2021
 - **IEEE Best Student Paper** Award, ICIP 2020
 - Viterbi Graduate Student Association (VGSA) Senator, Fall 2017, Spring 2020
+
+<!-- ## Software Projects (Recent)
+
+### **Audentic**, No-Code Voice AI Solution for Web Experiences ([audnetic.io](https://www.audentic.io/))
+
+### **Detextit**, AI-powered solutions for 3D design workflows ([detextit.com](https://www.detextit.com/))
+
+### **Promptact**, Learn prompting by reverse-engineering behavior ([promptact.vercel.app](https://promptact.vercel.app/)) -->
 
 <!-- ### Footer
 

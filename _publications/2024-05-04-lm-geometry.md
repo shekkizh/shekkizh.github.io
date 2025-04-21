@@ -1,6 +1,5 @@
 ---
-title: "Characterizing Large Language Model Geometry Solves Toxicity Detection and Generation
-"
+title: "Characterizing Large Language Model Geometry Solves Toxicity Detection and Generation"
 collection: publications
 permalink: /publication/2024-05-04-lm-geometry
 authors: 'R Balestriero, R Cosentino, S Shekkizhar'

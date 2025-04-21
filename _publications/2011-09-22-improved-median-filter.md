@@ -1,6 +1,5 @@
 ---
-title: "Detection and removal of Salt and Pepper noise in images by improved median filter
-"
+title: "Detection and removal of Salt and Pepper noise in images by improved median filter"
 collection: publications
 permalink: /publication/2011-09-22-improved-median-filter
 authors: 'S. Deivalakshmi, S. Shekkizhar, P. Palanisamy'
