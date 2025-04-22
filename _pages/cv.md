@@ -27,8 +27,6 @@ redirect_from:
 
 </div>
 
----
-
 ### **Staff Scientist, Salesforce**
 
 Working on foundational and applied research on AI agents with a focus on improving reasoning and safety.
@@ -172,19 +170,19 @@ Experiments on leveraging CNNs for colorizing grayscale images by statistical kn
 
 ### Keisuke Nonaka, KDDI Research (Visiting Researcher, USC) `Aug 2019 - July 2020`
 
-## Teaching Experience
+<!-- ## Teaching Experience
 
 ### Course Producer, CS 561 Foundations of Artificial Intelligence, Dr. Sheila Tejada `Fall 2013`
 
-### Course Grader, EE 483 Introduction to DSP, Prof. Edgar Satorius `Summer, Spring 2013`
+### Course Grader, EE 483 Introduction to DSP, Prof. Edgar Satorius `Summer, Spring 2013` -->
 
 ## Academic and Co-Curricular Activities
 
 - **IEEE Rising Star in Signal Processing** awarded at ICASSP 2023
+- **IEEE Best Student Paper** Award, ICIP 2020
 - Reviewer, IEEE Journals -- JSAIT, TSIPN, SPL, TNNLS
 - Reviewer, Conferences -- ICASSP, ICLR, NeurIPS, LoG, ICML
 - Mentor, Viterbi Graduate Mentorship Program, Fall 2021
-- **IEEE Best Student Paper** Award, ICIP 2020
 - Viterbi Graduate Student Association (VGSA) Senator, Fall 2017, Spring 2020
 
 <!-- ## Software Projects (Recent)
