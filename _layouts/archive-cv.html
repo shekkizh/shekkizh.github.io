@@ -1,11 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset=utf-8 />
-  <title> {% if page.title %} {{ page.title }} {% endif %} CV</title>
-  <link href="/assets/css/screen.css" type="text/css" rel="stylesheet" media="screen">
-  <link href="/assets/css/print.css" type="text/css" rel="stylesheet" media="print">
-  <link
+  <head>
+    <meta charset="utf-8" />
+    <title>{% if page.title %} {{ page.title }} {% endif %} CV</title>
+    <link
+      href="/assets/css/screen.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen"
+    />
+    <link
+      href="/assets/css/print.css"
+      type="text/css"
+      rel="stylesheet"
+      media="print"
+    />
+    <link
       href="/assets/foundation-icons/foundation-icons.css"
       type="text/css"
       rel="stylesheet"
@@ -14,12 +24,21 @@
       src="https://kit.fontawesome.com/774d5c5f58.js"
       crossorigin="anonymous"
     ></script>
-</head>
-<body>
-  <div id="main">
-    <div id="content">
-    {{ content }}
+  </head>
+  <body>
+    <div id="main">
+      <div id="content">{{ content }}</div>
     </div>
-  </div>
-</body>
+
+    <audentic-embed
+      agent-id="1afa849a-d6e4-4cf5-9240-ed6918178734"
+      max-output-tokens="4096"
+      widget-configuration='{"showBackgroundCard":false,"buttonText":"Voice Chat","primaryColor":"#334155","buttonTextColor":"#FFFFFF","borderRadius":"8"}'
+    ></audentic-embed>
+    <script
+      src="https://unpkg.com/@audentic/react/dist/embed.js"
+      async
+      type="text/javascript"
+    ></script>
+  </body>
 </html>

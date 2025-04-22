@@ -4,28 +4,32 @@ layout: compress
 
 {% include base_path %}
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
-    {% include head.html %}
-    {% include head/custom.html %}
+    {% include head.html %} {% include head/custom.html %}
   </head>
 
   <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
+    {% include browser-upgrade.html %} {% include masthead.html %} {{ content }}
 
     <div class="page__footer">
       <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
+        {% include footer/custom.html %} {% include footer.html %}
       </footer>
     </div>
 
     {% include scripts.html %}
 
+    <audentic-embed
+      agent-id="1afa849a-d6e4-4cf5-9240-ed6918178734"
+      max-output-tokens="4096"
+      widget-configuration='{"showBackgroundCard":false,"buttonText":"Voice Chat","primaryColor":"#334155","buttonTextColor":"#FFFFFF","borderRadius":"8"}'
+    ></audentic-embed>
+    <script
+      src="https://unpkg.com/@audentic/react/dist/embed.js"
+      async
+      type="text/javascript"
+    ></script>
   </body>
 </html>
