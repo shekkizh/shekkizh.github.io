@@ -11,7 +11,7 @@ tags:
   - multi agent
 ---
 
-Recent announcements from [OpenAI](https://openai.github.io/openai-agents-python/) and [Google](https://google.github.io/adk-docs/) has sparked a renewed interest in AI _agents_ - systems that can plan, observe, reason, and act in various environments. Beyond single agents, there's also a growing excitement around **multi agent** systems, where multiple LLM-powered entities collaborate to solve complex tasks. This post explores the current state of multi agent LLM systems, what makes them truly multi agentic, and why this matters.
+Recent agents-sdk announcements from [OpenAI](https://openai.github.io/openai-agents-python/) and [Google](https://google.github.io/adk-docs/) has sparked a renewed interest in AI _agents_ - systems that can plan, observe, reason, and act in various environments. Beyond single agents, there's also a growing excitement around **multi agent** systems, where multiple LLM-powered entities collaborate to solve complex tasks. This post explores the current state of multi agent LLM systems, what makes them truly multi agentic, and why this matters.
 
 ## LLM Agents
 
@@ -93,7 +93,7 @@ Let me illustrate this with a concrete example:
 
 Consider a system with a coding agent and a review agent (written in pseudo-code):
 
-**NOT Multi Agents**
+**This is NOT a Multi Agent System:**
 
 ```python
 function coding(requirement):
@@ -103,11 +103,12 @@ function coding(requirement):
         code = coding_agent(requirement, review)
         review = review_agent(code, requirement)
     return code, review
+
 ```
 
 In this approach, the coding_agent (review_agent) starts fresh each time, with no memory of previous code (review). The agents here can be replaced with a function call and the system will remain the same.
 
-**Multi Agent**
+**This would be a Multi Agent System:**
 
 ```python
 class CodingAgent:
@@ -140,6 +141,7 @@ function coding(requirement):
         code = coding_agent.code(requirement, review)
         review = review_agent.review(code, requirement)
     return code, review
+
 ```
 
 In the multi agent approach, the reviewer, for instance, maintains its own persistent state across multiple code reviews. It might identify patterns in the coder's behavior that inform future reviews, develop _opinions_ about certain coding practices, and have a relationship with the coder that evolves over time.
