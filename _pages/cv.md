@@ -14,7 +14,7 @@ redirect_from:
 
 # {{author.name}}
 
-<div id="contact" align="center">
+<div id="contact" align="center" style="margin-bottom: 20px;">
 
 <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.address }}
 <a href="{{ site.url }}"><i class="fas fa-fw fa-link" aria-hidden="true" style="margin-left:1em"></i> {{ site.data.ui-text[site.locale].homepage | default: "Website" }}</a>
@@ -27,9 +27,10 @@ redirect_from:
 
 </div>
 
-### **Staff Scientist, Salesforce**
 
-Working on foundational and applied research on AI agents with a focus on improving reasoning and safety.
+### **Staff Research Scientist, Salesforce**
+
+Working on foundational research on (multi) agentic systems and LLM training for improved reasoning and alignment. I continue to spend some of my research time on various aspects of voice AI and agentic design surrounding these systems.
 
 ## Education
 
@@ -90,7 +91,7 @@ _{{ post.venue }}_, {{ post.date | default: "1900-01-01" | date: "%Y" }}
 
 ### **Member of Technical Staff, Tenyx (Acquired by Salesforce)** `June 2023 - October 2024`
 
-Part of the founding team at Tenyx building Voice AI for customer support. Was primarily focused on research and creating intellectual property. Key accomplishments include research on continual learning [[VB article](https://venturebeat.com/ai/tenyx-aims-to-fix-llms-catastrophic-forgetting-problem/)], building TenyxChat series of models [[VB article](https://venturebeat.com/ai/exclusive-ai-startup-tenyxs-fine-tuned-open-source-llama-3-model-outperforms-gpt-4/)], and geometric characterization of LLMs [[HN Discussion](https://news.ycombinator.com/item?id=40899309)]. Was also involved in product development, particularly in endpointing, audio disambiguation, and agent governance.
+Part of the founding team at Tenyx building Voice AI for customer support. Was primarily focused on research and algorithms for various aspects of voice agents. Key accomplishments include research on continual learning [[VB article](https://venturebeat.com/ai/tenyx-aims-to-fix-llms-catastrophic-forgetting-problem/)], building TenyxChat series of models [[VB article](https://venturebeat.com/ai/exclusive-ai-startup-tenyxs-fine-tuned-open-source-llama-3-model-outperforms-gpt-4/)], and geometric characterization of LLMs [[HN Discussion](https://news.ycombinator.com/item?id=40899309)]. Was also involved in product development, particularly in endpointing, audio disambiguation, and agent governance.
 
 ### **Research Intern**, Google, Sunnyvale, CA `Sep 2022 - Dec 2022`
 

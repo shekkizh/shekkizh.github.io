@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 Hi,
-I'm Sarath, a staff scientist at Salesforce. I became part of the Salesforce family through an acquisition, [Tenyx](https://www.tenyx.com/), where I was a research/founding member building key technologies in LLM training, safety, and alignment.
+I'm Sarath, a staff research scientist at Salesforce. I became part of the Salesforce family through an acquisition, [Tenyx](https://www.tenyx.com/), where I was a research/founding member building key technologies in LLM training, safety, and alignment.
 
 Previously, I obtained my Ph.D. from the Ming Hsieh Department of Electrical and Computer Engineering at the University of Southern California, where I worked with [Prof. Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio).
 During my Ph.D., I focused on non-parametric, neighborhood/graph algorithms for understanding data and machine learning models.
