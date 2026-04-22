@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NNK Ideas Log</title>
+    <style>
+      :root {
+        --dark: #141413;
+        --light: #faf9f5;
+        --mid: #b0aea5;
+        --lightgray: #e8e6dc;
+        --orange: #d97757;
+        --blue: #6a9bcc;
+        --green: #788c5d;
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        background: var(--light);
+        color: var(--dark);
+        font-family: Lora, Georgia, serif;
+        line-height: 1.65;
+      }
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 14px 20px;
+        background: rgba(250,249,245,0.88);
+        border-bottom: 1px solid var(--lightgray);
+        backdrop-filter: blur(10px);
+      }
+      .topbar a { color: var(--dark); text-decoration: none; }
+      .topbar a:hover { color: var(--orange); }
+      .brand {
+        font-family: Poppins, Arial, sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--mid);
+      }
+      .hero {
+        min-height: 72vh;
+        display: grid;
+        place-items: center;
+        padding: 64px 20px 32px;
+        background: linear-gradient(135deg, var(--dark) 0%, #232320 100%);
+        color: var(--light);
+      }
+      .hero-inner { max-width: 980px; width: 100%; }
+      .hero h1, h2, h3 { font-family: Poppins, Arial, sans-serif; }
+      .hero h1 { font-size: clamp(2.5rem, 6vw, 5rem); line-height: 1.05; margin: 0 0 18px; }
+      .hero p { max-width: 780px; font-size: 1.15rem; color: #e8e6dc; }
+      .meta { color: var(--mid); font-size: 0.98rem; }
+      .slides { padding: 20px; display: grid; gap: 22px; }
+      .slide {
+        min-height: 88vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .slide-inner {
+        width: min(1100px, 100%);
+        background: white;
+        border: 1px solid var(--lightgray);
+        border-left: 10px solid var(--accent);
+        border-radius: 28px;
+        padding: clamp(24px, 4vw, 56px);
+        box-shadow: 0 12px 40px rgba(20,20,19,0.08);
+      }
+      .eyebrow {
+        font-family: Poppins, Arial, sans-serif;
+        color: var(--accent);
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        margin-bottom: 10px;
+      }
+      h2 {
+        margin: 0 0 18px;
+        font-size: clamp(2rem, 4vw, 3.4rem);
+        line-height: 1.1;
+      }
+      .content { font-size: clamp(1rem, 1.4vw, 1.22rem); }
+      .content p { margin: 0 0 14px; }
+      .content ul, .content ol { margin: 0 0 14px 0; padding-left: 1.35em; }
+      .content li { margin: 0 0 10px; }
+      code {
+        background: var(--lightgray);
+        padding: 0.12rem 0.38rem;
+        border-radius: 6px;
+        font-size: 0.92em;
+      }
+      .toc {
+        padding: 32px 20px 20px;
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      .toc-card {
+        background: #fff;
+        border: 1px solid var(--lightgray);
+        border-radius: 24px;
+        padding: 28px;
+      }
+      .toc h3 { font-family: Poppins, Arial, sans-serif; font-size: 1.6rem; margin-top: 0; }
+      .toc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px 18px; }
+      .toc-grid a { color: var(--dark); text-decoration: none; border-bottom: 1px solid transparent; }
+      .toc-grid a:hover { color: var(--orange); border-color: var(--orange); }
+      @media (max-width: 720px) {
+        .topbar { flex-direction: column; align-items: flex-start; }
+        .slide { min-height: auto; }
+        .slide-inner { border-radius: 20px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="brand">Shekkizh Knowledge Base</div>
+      <div>
+        <a href="./">NNK Index</a> · <a href="../../">Home</a> · <a href="nnk-ideas-log.md">Source Markdown</a>
+      </div>
+    </div>
+    <header class="hero">
+      <div class="hero-inner">
+        <div class="brand">Create a single page html slide deck</div>
+        <h1>NNK Ideas Log</h1>
+        <p>Single-page web deck version of the research note, styled for clean online reading and easy future extension.</p>
+        <p class="meta">Poppins for headings, Lora for body, with Shekkizh knowledge-base colors and accent system.</p>
+      </div>
+    </header>
+    <section class="toc">
+      <div class="toc-card">
+        <h3>Sections</h3>
+        <div class="toc-grid">
+          <a href="#slide-1">01. NNK Ideas Log</a><a href="#slide-2">02. Context</a><a href="#slide-3">03. What was reviewed</a><a href="#slide-4">04. Core conceptual summary</a><a href="#slide-5">05. Key discussion pivot</a><a href="#slide-6">06. Main algorithmic idea under discussion</a><a href="#slide-7">07. Sparse-coding-to-neighborhood directions discussed</a><a href="#slide-8">08. Strongest near-term algorithmic candidates</a><a href="#slide-9">09. Three concrete candidate algorithm families</a><a href="#slide-10">10. Philosophical constraint identified</a><a href="#slide-11">11. New systems interpretation from demos</a><a href="#slide-12">12. Working research framing</a><a href="#slide-13">13. Suggested next steps</a><a href="#slide-14">14. Notes</a>
+        </div>
+      </div>
+    </section>
+    <main class="slides">
+      
+        <section id="slide-1" class="slide" style="--accent:#d97757">
+          <div class="slide-inner">
+            <div class="eyebrow">01</div>
+            <h2>NNK Ideas Log</h2>
+            <div class="content"><p>Date: 2026-04-21</p></div>
+          </div>
+        </section>
+        <section id="slide-2" class="slide" style="--accent:#6a9bcc">
+          <div class="slide-inner">
+            <div class="eyebrow">02</div>
+            <h2>Context</h2>
+            <div class="content"><p>Charlie wants a durable place to save the ongoing discussion around the NNK thesis, the algorithm itself, and future research directions. The immediate motivation was that the chat discussion was getting too long to comfortably read inline.</p></div>
+          </div>
+        </section>
+        <section id="slide-3" class="slide" style="--accent:#788c5d">
+          <div class="slide-inner">
+            <div class="eyebrow">03</div>
+            <h2>What was reviewed</h2>
+            <div class="content"><p>### Thesis materials reviewed</p>
+<p>Core thesis chapter files reviewed:</p>
+<ul>
+<li><code>NNK_Thesis_LaTex/chapters/nnk_neighbors.tex</code></li>
+<li><code>NNK_Thesis_LaTex/chapters/nnk_interpolation.tex</code></li>
+<li><code>NNK_Thesis_LaTex/chapters/nnk_means.tex</code></li>
+<li><code>NNK_Thesis_LaTex/chapters/GOL_nnk.tex</code></li>
+</ul>
+<p>These cover:</p>
+<ul>
+<li>NNK neighborhood theory</li>
+<li>sparse approximation interpretation of neighborhoods</li>
+<li>KRI / geometric characterization</li>
+<li>interpolation and DeepNNK</li>
+<li>NNK-Means and dictionary-learning / clustering connection</li>
+<li>geometry of deep learning via NNK graphs / MGMs</li>
+</ul>
+<p>### Implementation demos reviewed</p>
+<p>Two Python demos were reviewed:</p>
+<ul>
+<li>GPU demo: MNIST + FAISS + PyTorch + approximate GPU NNK solver</li>
+<li>Text demo: sentence embeddings + FAISS + custom non-negative QP solver + Amazon MASSIVE classification</li>
+</ul>
+<p>These demos made the systems interpretation concrete:</p>
+<ul>
+<li>retrieval / candidate generation first</li>
+<li>local non-negative sparse support selection second</li>
+</ul></div>
+          </div>
+        </section>
+        <section id="slide-4" class="slide" style="--accent:#d97757">
+          <div class="slide-inner">
+            <div class="eyebrow">04</div>
+            <h2>Core conceptual summary</h2>
+            <div class="content"><p>NNK reframes neighborhood definition as a <strong>non-negative sparse coding problem</strong> in kernel / embedding space.</p>
+<p>This is the central unification:</p>
+<ul>
+<li>thresholding sparse coding ↔ kNN / epsilon neighborhoods</li>
+<li>orthogonalized non-negative sparse approximation ↔ NNK</li>
+<li>dictionary learning ↔ clustering / summarization (NNK-Means)</li>
+</ul>
+<p>This suggests the thesis is not just about one algorithm, but about a broader principle:</p>
+<p><strong>local structure in data can be understood as sparse support selection under geometric constraints.</strong></p></div>
+          </div>
+        </section>
+        <section id="slide-5" class="slide" style="--accent:#6a9bcc">
+          <div class="slide-inner">
+            <div class="eyebrow">05</div>
+            <h2>Key discussion pivot</h2>
+            <div class="content"><p>Charlie emphasized that before talking about applications, the more important research direction is:</p>
+<p>&gt; If neighborhoods are sparse coding representations, how can we import other sparse coding concepts into neighborhood definitions?</p>
+<p>This is the real next-step research program.</p></div>
+          </div>
+        </section>
+        <section id="slide-6" class="slide" style="--accent:#788c5d">
+          <div class="slide-inner">
+            <div class="eyebrow">06</div>
+            <h2>Main algorithmic idea under discussion</h2>
+            <div class="content"><p>NNK should be seen as only one point in a larger design space of sparse neighborhood models.</p>
+<p>The more general question is:</p>
+<ul>
+<li>what sparse coding priors or formulations lead to useful new neighborhood definitions?</li>
+<li>which of them preserve locality and geometric interpretability?</li>
+<li>which ones become genuinely new neighborhood algorithms rather than just generic pursuit methods?</li>
+</ul></div>
+          </div>
+        </section>
+        <section id="slide-7" class="slide" style="--accent:#d97757">
+          <div class="slide-inner">
+            <div class="eyebrow">07</div>
+            <h2>Sparse-coding-to-neighborhood directions discussed</h2>
+            <div class="content"><p>### 1. Structured sparsity → structured neighborhoods</p>
+<p>Potential analogues:</p>
+<ul>
+<li>group sparsity</li>
+<li>hierarchical sparsity</li>
+<li>block sparsity</li>
+<li>tree sparsity</li>
+</ul>
+<p>Neighborhood interpretation:</p>
+<ul>
+<li>pick neighbors across groups/scales/subspaces instead of from one undifferentiated pool</li>
+<li>enforce diversity with structure, not just pairwise redundancy pruning</li>
+</ul>
+<p>### 2. Robust sparse coding → robust neighborhoods</p>
+<p>Potential analogues:</p>
+<ul>
+<li>noise-aware objectives</li>
+<li>outlier slack</li>
+<li>Huber / robust losses</li>
+<li>elastic net style penalties</li>
+<li>controlled redundancy for stability</li>
+</ul>
+<p>Motivation:</p>
+<ul>
+<li>plain NNK may over-prune under noisy or irrelevant dimensions</li>
+<li>robust NNK could preserve the geometry while improving stability</li>
+</ul>
+<p>### 3. Multi-scale / overcomplete sparse coding → multi-scale neighborhoods</p>
+<p>Potential analogues:</p>
+<ul>
+<li>union of multiple kernels</li>
+<li>multiple bandwidths</li>
+<li>multiple feature views</li>
+<li>overcomplete candidate dictionaries</li>
+</ul>
+<p>Motivation:</p>
+<ul>
+<li>a neighborhood need not come from one kernel / one scale only</li>
+<li>could address kernel sensitivity and representation scale issues</li>
+</ul>
+<p>### 4. Dictionary coherence / sparse coding diagnostics → neighborhood quality theory</p>
+<p>Potential analogue:</p>
+<ul>
+<li>local coherence as a way to reason about when thresholding is enough and when NNK-style optimization is necessary</li>
+</ul>
+<p>Motivation:</p>
+<ul>
+<li>sharpen the theory of neighborhood optimality</li>
+<li>explain when kNN is near-optimal vs when geometry-aware pruning matters</li>
+</ul>
+<p>### 5. Learned dictionaries / prototypes → prototype neighborhoods</p>
+<p>Potential analogue:</p>
+<ul>
+<li>neighborhoods over learned atoms instead of raw points</li>
+<li>mixture of instance and prototype support sets</li>
+</ul>
+<p>Motivation:</p>
+<ul>
+<li>extend NNK-Means beyond summarization toward neighborhood definition itself</li>
+</ul>
+<p>### 6. Analysis sparse models → operator-defined neighborhoods</p>
+<p>More speculative:</p>
+<ul>
+<li>define neighborhoods via sparse local operator responses rather than synthesis from points</li>
+</ul>
+<p>Motivation:</p>
+<ul>
+<li>could yield a fundamentally different notion of local structure</li>
+</ul>
+<p>### 7. Symmetry-aware / shift-aware sparse models → transformation-aware neighborhoods</p>
+<p>Potential analogue:</p>
+<ul>
+<li>neighborhoods modulo transformations or group actions</li>
+<li>support sets stable under nuisance transformations</li>
+</ul>
+<p>Motivation:</p>
+<ul>
+<li>tie NNK more directly to invariance/equivariance and representation learning</li>
+</ul></div>
+          </div>
+        </section>
+        <section id="slide-8" class="slide" style="--accent:#6a9bcc">
+          <div class="slide-inner">
+            <div class="eyebrow">08</div>
+            <h2>Strongest near-term algorithmic candidates</h2>
+            <div class="content"><p>From the discussion, the most promising near-term directions appear to be:</p>
+<ol>
+<li><strong>Robust / noise-aware NNK</strong></li>
+<li><strong>Structured sparsity neighborhoods</strong></li>
+<li><strong>Multi-scale / multi-kernel NNK</strong></li>
+</ol>
+<p>These seem like the cleanest next steps that remain faithful to the thesis core.</p></div>
+          </div>
+        </section>
+        <section id="slide-9" class="slide" style="--accent:#788c5d">
+          <div class="slide-inner">
+            <div class="eyebrow">09</div>
+            <h2>Three concrete candidate algorithm families</h2>
+            <div class="content"><p>### Elastic / Robust NNK</p>
+<p>Add:</p>
+<ul>
+<li>non-negative reconstruction</li>
+<li>mild L2 or elastic-net regularization</li>
+<li>explicit residual slack / noise model</li>
+</ul>
+<p>Goal:</p>
+<ul>
+<li>reduce brittleness</li>
+<li>avoid over-pruning in noisy high-dimensional settings</li>
+</ul>
+<p>### Group NNK</p>
+<p>Partition candidates into groups:</p>
+<ul>
+<li>scales</li>
+<li>modalities</li>
+<li>channels</li>
+<li>semantic clusters</li>
+</ul>
+<p>Goal:</p>
+<ul>
+<li>select non-redundant support with structural priors</li>
+<li>make neighborhoods more balanced and semantically meaningful</li>
+</ul>
+<p>### Multi-kernel NNK</p>
+<p>Use candidate support from:</p>
+<ul>
+<li>multiple kernels</li>
+<li>multiple bandwidths</li>
+<li>multiple feature representations</li>
+</ul>
+<p>Goal:</p>
+<ul>
+<li>overcome single-kernel sensitivity</li>
+<li>define neighborhoods across scales/views</li>
+</ul></div>
+          </div>
+        </section>
+        <section id="slide-10" class="slide" style="--accent:#d97757">
+          <div class="slide-inner">
+            <div class="eyebrow">10</div>
+            <h2>Philosophical constraint identified</h2>
+            <div class="content"><p>Not every sparse coding method should be called a neighborhood.</p>
+<p>A good neighborhood generalization should preserve:</p>
+<ol>
+<li><strong>locality</strong> — selected support should still be meaningfully near the query in some representation</li>
+<li><strong>interpretability</strong> — there should still be a geometric or statistical reason why those support points were selected</li>
+</ol>
+<p>If the support becomes arbitrary or nonlocal, it stops being a neighborhood and becomes generic sparse coding.</p></div>
+          </div>
+        </section>
+        <section id="slide-11" class="slide" style="--accent:#6a9bcc">
+          <div class="slide-inner">
+            <div class="eyebrow">11</div>
+            <h2>New systems interpretation from demos</h2>
+            <div class="content"><p>The implementation demos suggest a clean practical view:</p>
+<p><strong>NNK = candidate retrieval + local non-negative sparse reranking</strong></p>
+<p>This may be a useful algorithmic abstraction independent of application domain.</p></div>
+          </div>
+        </section>
+        <section id="slide-12" class="slide" style="--accent:#788c5d">
+          <div class="slide-inner">
+            <div class="eyebrow">12</div>
+            <h2>Working research framing</h2>
+            <div class="content"><p>A possible next-paper / next-chapter framing:</p>
+<p><strong>From sparse neighborhoods to structured sparse neighborhoods</strong></p>
+<p>Possible progression:</p>
+<ul>
+<li>kNN = thresholding</li>
+<li>NNK = non-negative sparse coding</li>
+<li>NNK-Means = dictionary learning / clustering</li>
+<li>next = robust, structured, and multi-scale neighborhood models</li>
+</ul></div>
+          </div>
+        </section>
+        <section id="slide-13" class="slide" style="--accent:#d97757">
+          <div class="slide-inner">
+            <div class="eyebrow">13</div>
+            <h2>Suggested next steps</h2>
+            <div class="content"><ol>
+<li>Build a compact matrix: sparse coding concept → neighborhood analogue → geometric meaning → practical viability</li>
+<li>Formalize robust / elastic NNK first, since it directly addresses a known weakness</li>
+<li>Explore group / multi-kernel NNK as a second branch</li>
+<li>Revisit sparse coding theory tools (coherence, recovery conditions, structured sparsity theory) from the neighborhood lens</li>
+<li>Keep the focus on algorithmic principles before jumping too fast into applications</li>
+</ol></div>
+          </div>
+        </section>
+        <section id="slide-14" class="slide" style="--accent:#6a9bcc">
+          <div class="slide-inner">
+            <div class="eyebrow">14</div>
+            <h2>Notes</h2>
+            <div class="content"><ul>
+<li>A longer distilled memory note also exists at <code>memory/2026-04-21-nnk-thesis-idea.md</code></li>
+<li>This file is intended as a readable running log for future repo import / paper planning</li>
+</ul></div>
+          </div>
+        </section>
+    </main>
+  </body>
+</html>

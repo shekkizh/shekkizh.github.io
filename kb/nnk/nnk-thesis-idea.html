@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NNK Thesis Idea</title>
+    <style>
+      :root {
+        --dark: #141413;
+        --light: #faf9f5;
+        --mid: #b0aea5;
+        --lightgray: #e8e6dc;
+        --orange: #d97757;
+        --blue: #6a9bcc;
+        --green: #788c5d;
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        background: var(--light);
+        color: var(--dark);
+        font-family: Lora, Georgia, serif;
+        line-height: 1.65;
+      }
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 14px 20px;
+        background: rgba(250,249,245,0.88);
+        border-bottom: 1px solid var(--lightgray);
+        backdrop-filter: blur(10px);
+      }
+      .topbar a { color: var(--dark); text-decoration: none; }
+      .topbar a:hover { color: var(--orange); }
+      .brand {
+        font-family: Poppins, Arial, sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--mid);
+      }
+      .hero {
+        min-height: 72vh;
+        display: grid;
+        place-items: center;
+        padding: 64px 20px 32px;
+        background: linear-gradient(135deg, var(--dark) 0%, #232320 100%);
+        color: var(--light);
+      }
+      .hero-inner { max-width: 980px; width: 100%; }
+      .hero h1, h2, h3 { font-family: Poppins, Arial, sans-serif; }
+      .hero h1 { font-size: clamp(2.5rem, 6vw, 5rem); line-height: 1.05; margin: 0 0 18px; }
+      .hero p { max-width: 780px; font-size: 1.15rem; color: #e8e6dc; }
+      .meta { color: var(--mid); font-size: 0.98rem; }
+      .slides { padding: 20px; display: grid; gap: 22px; }
+      .slide {
+        min-height: 88vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .slide-inner {
+        width: min(1100px, 100%);
+        background: white;
+        border: 1px solid var(--lightgray);
+        border-left: 10px solid var(--accent);
+        border-radius: 28px;
+        padding: clamp(24px, 4vw, 56px);
+        box-shadow: 0 12px 40px rgba(20,20,19,0.08);
+      }
+      .eyebrow {
+        font-family: Poppins, Arial, sans-serif;
+        color: var(--accent);
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        margin-bottom: 10px;
+      }
+      h2 {
+        margin: 0 0 18px;
+        font-size: clamp(2rem, 4vw, 3.4rem);
+        line-height: 1.1;
+      }
+      .content { font-size: clamp(1rem, 1.4vw, 1.22rem); }
+      .content p { margin: 0 0 14px; }
+      .content ul, .content ol { margin: 0 0 14px 0; padding-left: 1.35em; }
+      .content li { margin: 0 0 10px; }
+      code {
+        background: var(--lightgray);
+        padding: 0.12rem 0.38rem;
+        border-radius: 6px;
+        font-size: 0.92em;
+      }
+      .toc {
+        padding: 32px 20px 20px;
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      .toc-card {
+        background: #fff;
+        border: 1px solid var(--lightgray);
+        border-radius: 24px;
+        padding: 28px;
+      }
+      .toc h3 { font-family: Poppins, Arial, sans-serif; font-size: 1.6rem; margin-top: 0; }
+      .toc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px 18px; }
+      .toc-grid a { color: var(--dark); text-decoration: none; border-bottom: 1px solid transparent; }
+      .toc-grid a:hover { color: var(--orange); border-color: var(--orange); }
+      @media (max-width: 720px) {
+        .topbar { flex-direction: column; align-items: flex-start; }
+        .slide { min-height: auto; }
+        .slide-inner { border-radius: 20px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="brand">Shekkizh Knowledge Base</div>
+      <div>
+        <a href="./">NNK Index</a> · <a href="../../">Home</a> · <a href="nnk-thesis-idea.md">Source Markdown</a>
+      </div>
+    </div>
+    <header class="hero">
+      <div class="hero-inner">
+        <div class="brand">Create a single page html slide deck</div>
+        <h1>NNK Thesis Idea</h1>
+        <p>Single-page web deck version of the research note, styled for clean online reading and easy future extension.</p>
+        <p class="meta">Poppins for headings, Lora for body, with Shekkizh knowledge-base colors and accent system.</p>
+      </div>
+    </header>
+    <section class="toc">
+      <div class="toc-card">
+        <h3>Sections</h3>
+        <div class="toc-grid">
+          <a href="#slide-1">01. NNK Thesis Idea — Working Memory</a><a href="#slide-2">02. Core idea</a><a href="#slide-3">03. Why it matters</a><a href="#slide-4">04. Signature geometric insight</a><a href="#slide-5">05. Thesis-level contributions distilled</a><a href="#slide-6">06. High-level research identity of the work</a><a href="#slide-7">07. Strong future directions to iterate on</a><a href="#slide-8">08. Implementation demos reviewed</a><a href="#slide-9">09. Most promising AI application buckets</a><a href="#slide-10">10. Working thesis for future iteration</a><a href="#slide-11">11. Suggested next concrete work items</a><a href="#slide-12">12. Short one-line essence</a>
+        </div>
+      </div>
+    </section>
+    <main class="slides">
+      
+        <section id="slide-1" class="slide" style="--accent:#d97757">
+          <div class="slide-inner">
+            <div class="eyebrow">01</div>
+            <h2>NNK Thesis Idea — Working Memory</h2>
+            <div class="content"><p>Date: 2026-04-21</p></div>
+          </div>
+        </section>
+        <section id="slide-2" class="slide" style="--accent:#6a9bcc">
+          <div class="slide-inner">
+            <div class="eyebrow">02</div>
+            <h2>Core idea</h2>
+            <div class="content"><p>NNK (Non-Negative Kernel Regression) reframes neighborhood definition as a <strong>non-negative sparse approximation</strong> problem in kernel space.</p>
+<p>Instead of defining neighbors by a fixed <code>k</code> or distance threshold alone, NNK starts from a candidate local set (often kNN) and solves for <strong>non-negative weights</strong> that reconstruct a query point in RKHS. The nonzero coefficients define the true neighbors.</p>
+<p>This gives a unifying view:</p>
+<ul>
+<li>neighborhood selection = sparse representation</li>
+<li>weights = reconstruction coefficients</li>
+<li>geometry = pruning of redundant neighbors</li>
+</ul>
+<p>The key conceptual claim is that <strong>nearest neighbors, sparse coding, and geometry are the same object viewed from different angles</strong>.</p></div>
+          </div>
+        </section>
+        <section id="slide-3" class="slide" style="--accent:#788c5d">
+          <div class="slide-inner">
+            <div class="eyebrow">03</div>
+            <h2>Why it matters</h2>
+            <div class="content"><p>Classical kNN / epsilon-neighborhoods are thresholding methods: they select points based only on query-to-point similarity and ignore redundancy among neighbors.</p>
+<p>NNK improves this by accounting for:</p>
+<ul>
+<li>query-to-neighbor similarity</li>
+<li>neighbor-to-neighbor similarity</li>
+<li>local geometric diversity</li>
+</ul>
+<p>As a result, NNK produces neighborhoods that are:</p>
+<ul>
+<li>adaptive rather than fixed-size</li>
+<li>sparse but meaningful</li>
+<li>geometrically diverse</li>
+<li>more robust to hyperparameters like <code>k</code></li>
+<li>better suited for graph construction and downstream learning</li>
+</ul></div>
+          </div>
+        </section>
+        <section id="slide-4" class="slide" style="--accent:#d97757">
+          <div class="slide-inner">
+            <div class="eyebrow">04</div>
+            <h2>Signature geometric insight</h2>
+            <div class="content"><p>The main theorem is the <strong>Kernel Ratio Interval (KRI)</strong>.</p>
+<p>For a query <code>q</code> and two candidate neighbors <code>i</code> and <code>j</code>, both can be active only if their relative similarities satisfy a kernel ratio constraint. Intuitively:</p>
+<ul>
+<li>if two candidates are too similar to each other, one becomes redundant</li>
+<li>NNK keeps neighbors that explain different directions around the query</li>
+<li>the selected neighbors form a local convex polytope around the query</li>
+</ul>
+<p>This is the most elegant part of the thesis: the solution is not just sparse, but <strong>geometrically interpretable</strong>.</p></div>
+          </div>
+        </section>
+        <section id="slide-5" class="slide" style="--accent:#6a9bcc">
+          <div class="slide-inner">
+            <div class="eyebrow">05</div>
+            <h2>Thesis-level contributions distilled</h2>
+            <div class="content"><ol>
+<li><strong>Neighborhoods as sparse approximation</strong></li>
+</ol>
+<p>   - Reinterprets kNN/epsilon-neighborhoods as thresholding-based sparse coding.</p>
+<p>   - Positions NNK as a better sparse approximation objective.</p>
+<ol>
+<li><strong>NNK neighborhood algorithm</strong></li>
+</ol>
+<p>   - Solve non-negative kernel regression on a local candidate set.</p>
+<p>   - Nonzero weights define adaptive neighbors and edge strengths.</p>
+<ol>
+<li><strong>Geometry via KRI and polytope view</strong></li>
+</ol>
+<p>   - NNK prunes geometrically redundant points.</p>
+<p>   - Neighborhoods correspond to convex polytopes / directional spanning sets.</p>
+<ol>
+<li><strong>Connection to pursuit methods</strong></li>
+</ol>
+<p>   - Strong relationship to OMP / basis pursuit / non-negative least squares.</p>
+<p>   - NNK acts like an efficient one-shot local OMP using a good candidate set.</p>
+<ol>
+<li><strong>Graph construction</strong></li>
+</ol>
+<p>   - Leads to sparse, high-quality graphs.</p>
+<p>   - Improves graph SSL and manifold learning while keeping runtime practical.</p>
+<ol>
+<li><strong>Interpolation view</strong></li>
+</ol>
+<p>   - NNK yields a local polytope interpolator.</p>
+<p>   - Interpolative like simplicial approaches, but more practical and adaptive in high dimension.</p>
+<ol>
+<li><strong>DeepNNK</strong></li>
+</ol>
+<p>   - Applies NNK to deep feature embeddings.</p>
+<p>   - Gives a local geometric/interpolative view of neural network behavior.</p>
+<p>   - Useful for generalization estimation, explainability, self-supervised evaluation, few-shot learning, and dataset distance.</p>
+<ol>
+<li><strong>NNK-Means</strong></li>
+</ol>
+<p>   - Extends the idea into summarization / dictionary learning.</p>
+<p>   - Learns representative atoms with geometry-aware non-negative sparse coding.</p>
+<ol>
+<li><strong>Geometry of deep learning / MGMs</strong></li>
+</ol>
+<p>   - Uses NNK polytopes to measure invariance, curvature, and intrinsic dimension in learned representations.</p>
+<p>   - Applies especially well to self-supervised learning analysis.</p></div>
+          </div>
+        </section>
+        <section id="slide-6" class="slide" style="--accent:#788c5d">
+          <div class="slide-inner">
+            <div class="eyebrow">06</div>
+            <h2>High-level research identity of the work</h2>
+            <div class="content"><p>This thesis is not just &quot;a better nearest-neighbor method.&quot;</p>
+<p>It is a <strong>general geometric framework</strong> for thinking about:</p>
+<ul>
+<li>local representation</li>
+<li>graph construction</li>
+<li>interpolation</li>
+<li>summarization</li>
+<li>deep feature analysis</li>
+</ul>
+<p>The recurring theme is:</p>
+<p><strong>learn from local non-negative sparse structure rather than blunt proximity.</strong></p></div>
+          </div>
+        </section>
+        <section id="slide-7" class="slide" style="--accent:#d97757">
+          <div class="slide-inner">
+            <div class="eyebrow">07</div>
+            <h2>Strong future directions to iterate on</h2>
+            <div class="content"><p>### 1. Noise-aware / robust NNK</p>
+<p>A known limitation in the thesis is that NNK can be too aggressive in pruning when features are noisy or include non-informative dimensions.</p>
+<p>Potential directions:</p>
+<ul>
+<li>regularized NNK with controlled redundancy</li>
+<li>uncertainty-aware kernels</li>
+<li>robust objectives / slack in KRI</li>
+<li>Bayesian or probabilistic NNK</li>
+<li>feature denoising before neighborhood optimization</li>
+</ul>
+<p>### 2. Learn the kernel jointly with NNK</p>
+<p>The theory is powerful but still depends on the kernel.</p>
+<p>Potential work:</p>
+<ul>
+<li>learn kernels optimized for NNK sparsity + downstream utility</li>
+<li>deep metric learning objectives that explicitly favor NNK geometry</li>
+<li>task-specific kernels for text, multimodal embeddings, graphs, biological sequences</li>
+</ul>
+<p>### 3. NNK as a modern retrieval / memory primitive for AI</p>
+<p>Very promising AI angle:</p>
+<ul>
+<li>retrieval for RAG that prefers geometrically diverse evidence, not redundant nearest chunks</li>
+<li>exemplar selection for in-context learning</li>
+<li>adaptive memory graph construction for agents</li>
+<li>neighborhood-based calibration and confidence estimation for LLM embeddings</li>
+<li>explanation by showing minimal non-redundant supporting examples</li>
+</ul>
+<p>### 4. NNK for representation learning objectives</p>
+<p>Instead of using NNK only after embeddings are learned, use it during training.</p>
+<p>Ideas:</p>
+<ul>
+<li>train embeddings so same-class or semantically related points form stable NNK polytopes</li>
+<li>loss terms encouraging desirable intrinsic dimension / curvature / invariance profiles</li>
+<li>NNK-consistent SSL objectives</li>
+<li>NNK-based regularization for collapse avoidance</li>
+</ul>
+<p>### 5. NNK for graph foundation models / GNNs</p>
+<p>Potential directions:</p>
+<ul>
+<li>build better input graphs for GNNs from raw features</li>
+<li>dynamic NNK graphs across layers</li>
+<li>pruning redundant edges in large graph transformers</li>
+<li>local polytope aggregation instead of fixed message passing neighborhoods</li>
+</ul>
+<p>### 6. NNK for multimodal and generative AI</p>
+<p>Interesting opportunity:</p>
+<ul>
+<li>image-text neighborhood alignment</li>
+<li>diverse retrieval of support examples across modalities</li>
+<li>latent-space geometry diagnostics for generative models</li>
+<li>adversarial / OOD detection using local polytope support size and shape</li>
+<li>diffusion / generative manifold analysis using NNK graph metrics</li>
+</ul>
+<p>### 7. NNK for dataset curation and distillation</p>
+<p>Building on NNK-Means:</p>
+<ul>
+<li>representative subset selection for foundation model fine-tuning</li>
+<li>coreset construction with geometry guarantees</li>
+<li>de-duplication beyond plain nearest-neighbor similarity</li>
+<li>curriculum design based on interpolation spread / local geometric complexity</li>
+</ul>
+<p>### 8. Educational / visualization layer</p>
+<p>This idea is highly visual and teachable.</p>
+<p>Great outreach / productizable path:</p>
+<ul>
+<li>interactive 2D/3D demo showing kNN vs NNK</li>
+<li>animate KRI pruning cones / planes</li>
+<li>show polytope formation live as points move</li>
+<li>explain deep representation geometry through NNK polytopes</li>
+</ul>
+<p>This could become a signature explanatory artifact for the work.</p></div>
+          </div>
+        </section>
+        <section id="slide-8" class="slide" style="--accent:#6a9bcc">
+          <div class="slide-inner">
+            <div class="eyebrow">08</div>
+            <h2>Implementation demos reviewed</h2>
+            <div class="content"><p>Two implementation demos were shared and reviewed on 2026-04-21.</p>
+<p>### 1. GPU image demo</p>
+<p>A Colab-style PyTorch + FAISS GPU implementation that:</p>
+<ul>
+<li>uses MNIST image features (flattened pixels)</li>
+<li>builds a top-k candidate neighborhood with FAISS inner-product search</li>
+<li>solves an approximate NNK objective with iterative thresholding on GPU</li>
+<li>compares weighted kNN vs NNK classification on the same neighborhood candidates</li>
+<li>reports sparsity reduction by counting nonzeros in the resulting weights</li>
+</ul>
+<p>Important implementation idea:</p>
+<ul>
+<li>NNK can be made practical by using <strong>fast ANN/kNN retrieval first</strong>, then solving a <strong>small local non-negative optimization</strong> per query.</li>
+<li>This supports a modern systems framing: retrieval + local sparse reranking.</li>
+</ul>
+<p>### 2. Text demo</p>
+<p>A Colab-style text pipeline that:</p>
+<ul>
+<li>extracts sentence embeddings using Hugging Face models (example: XLM-R)</li>
+<li>uses FAISS for nearest-neighbor retrieval over text embeddings</li>
+<li>solves the NNK weights with a custom non-negative QP solver</li>
+<li>compares kNN vs NNK for intent classification on Amazon MASSIVE</li>
+<li>exposes an explainability mode by printing which examples remain after NNK pruning</li>
+</ul>
+<p>Important implementation idea:</p>
+<ul>
+<li>NNK is not limited to geometric toy data or images; it works naturally on <strong>embedding spaces from modern language models</strong>.</li>
+<li>This strongly supports future applications in <strong>retrieval, example selection, explanation, and memory pruning for AI systems</strong>.</li>
+</ul>
+<p>### Implementation takeaway</p>
+<p>These demos make the broader thesis direction much more concrete:</p>
+<p><strong>NNK = candidate retrieval + local non-negative sparse support selection.</strong></p>
+<p>That decomposition is highly compatible with modern AI systems because it maps onto:</p>
+<ul>
+<li>ANN search infrastructure</li>
+<li>embedding-based pipelines</li>
+<li>reranking layers</li>
+<li>retrieval/exemplar selection for language and multimodal systems</li>
+</ul>
+<p>This is probably the cleanest path to turning the theory into practical AI tooling.</p></div>
+          </div>
+        </section>
+        <section id="slide-9" class="slide" style="--accent:#788c5d">
+          <div class="slide-inner">
+            <div class="eyebrow">09</div>
+            <h2>Most promising AI application buckets</h2>
+            <div class="content"><p>If focusing effort, likely strongest near-term buckets are:</p>
+<ol>
+<li><strong>RAG / retrieval diversity and evidence pruning</strong></li>
+<li><strong>Deep embedding analysis and model diagnostics</strong></li>
+<li><strong>Few-shot / non-parametric classifiers on learned embeddings</strong></li>
+<li><strong>Graph construction for foundation-model feature spaces</strong></li>
+<li><strong>Dataset summarization / distillation / deduplication</strong></li>
+<li><strong>Embedding-space reranking layers for text and multimodal systems</strong></li>
+</ol></div>
+          </div>
+        </section>
+        <section id="slide-10" class="slide" style="--accent:#d97757">
+          <div class="slide-inner">
+            <div class="eyebrow">10</div>
+            <h2>Working thesis for future iteration</h2>
+            <div class="content"><p>NNK can be evolved from a neighborhood algorithm into a broader principle:</p>
+<p><strong>A local intelligence primitive for AI systems:</strong></p>
+<p>select a minimal, non-redundant, geometrically meaningful support set around a query, then reason/interpolate/decide using that support.</p>
+<p>That framing feels broader and more modern than the original nearest-neighbor framing while staying faithful to the math.</p></div>
+          </div>
+        </section>
+        <section id="slide-11" class="slide" style="--accent:#6a9bcc">
+          <div class="slide-inner">
+            <div class="eyebrow">11</div>
+            <h2>Suggested next concrete work items</h2>
+            <div class="content"><ul>
+<li>Re-read thesis and extract a compact “NNK for modern AI” position paper outline</li>
+<li>Identify which assumptions in KRI / NNK survive for modern embedding spaces from transformers</li>
+<li>Prototype NNK-based retrieval reranking on embedding search results</li>
+<li>Prototype NNK-based exemplar selection for few-shot prompting / ICL</li>
+<li>Build a visual explainer for KRI and local polytope formation</li>
+<li>Revisit robustness to noise / redundancy with a modern benchmark suite</li>
+<li>Explore NNK as a regularizer or loss term in representation learning</li>
+</ul></div>
+          </div>
+        </section>
+        <section id="slide-12" class="slide" style="--accent:#788c5d">
+          <div class="slide-inner">
+            <div class="eyebrow">12</div>
+            <h2>Short one-line essence</h2>
+            <div class="content"><p>NNK is a geometry-aware, non-negative sparse neighborhood principle that turns local similarity into an adaptive support set for learning, interpolation, graphs, and modern AI systems.</p></div>
+          </div>
+        </section>
+    </main>
+  </body>
+</html>
