@@ -1,615 +1,399 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>LLM Training Knowledge Base</title>
-  <meta name="description" content="A structured knowledge base distilled from handwritten notes on LLM training, evaluation, post-training, reasoning, data quality, and serving considerations." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg: #141413;
-      --panel: #1b1b19;
-      --panel-2: #22221f;
-      --text: #faf9f5;
-      --muted: #b0aea5;
-      --soft: #e8e6dc;
-      --line: rgba(232, 230, 220, 0.12);
-      --orange: #d97757;
-      --blue: #6a9bcc;
-      --green: #788c5d;
-      --shadow: 0 18px 50px rgba(0,0,0,0.28);
-      --radius: 22px;
-      --radius-sm: 14px;
-      --max: 1120px;
-    }
-
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      font-family: 'Lora', Georgia, serif;
-      background:
-        radial-gradient(circle at top left, rgba(106,155,204,0.12), transparent 26%),
-        radial-gradient(circle at top right, rgba(217,119,87,0.12), transparent 24%),
-        linear-gradient(180deg, #151514 0%, #111110 100%);
-      color: var(--text);
-      line-height: 1.6;
-    }
-
-    a { color: inherit; }
-
-    .wrap {
-      width: min(calc(100% - 32px), var(--max));
-      margin: 0 auto;
-    }
-
-    .hero {
-      padding: 64px 0 28px;
-    }
-
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 8px 12px;
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      color: var(--muted);
-      font-size: 0.95rem;
-      background: rgba(255,255,255,0.03);
-    }
-
-    .hero-grid {
-      display: grid;
-      grid-template-columns: 1.2fr 0.8fr;
-      gap: 28px;
-      margin-top: 22px;
-    }
-
-    h1, h2, h3, h4 {
-      font-family: 'Poppins', Arial, sans-serif;
-      letter-spacing: -0.02em;
-      margin: 0 0 12px;
-      line-height: 1.1;
-    }
-
-    h1 {
-      font-size: clamp(2.4rem, 5vw, 4.5rem);
-      max-width: 11ch;
-    }
-
-    .lede {
-      font-size: 1.14rem;
-      color: var(--soft);
-      max-width: 68ch;
-      margin: 0;
-    }
-
-    .hero-card,
-    .card,
-    .toc,
-    .note {
-      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015));
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-    }
-
-    .hero-card {
-      padding: 24px;
-    }
-
-    .meta-list {
-      display: grid;
-      gap: 14px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    .meta-list li {
-      padding-bottom: 14px;
-      border-bottom: 1px solid var(--line);
-    }
-
-    .meta-list li:last-child {
-      border-bottom: none;
-      padding-bottom: 0;
-    }
-
-    .label {
-      display: block;
-      font-family: 'Poppins', Arial, sans-serif;
-      font-size: 0.82rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--muted);
-      margin-bottom: 6px;
-    }
-
-    .value {
-      font-size: 1rem;
-      color: var(--text);
-    }
-
-    .layout {
-      display: grid;
-      grid-template-columns: 300px minmax(0, 1fr);
-      gap: 28px;
-      padding: 24px 0 72px;
-      align-items: start;
-    }
-
-    .toc {
-      position: sticky;
-      top: 20px;
-      padding: 18px;
-    }
-
-    .toc h2 {
-      font-size: 1.05rem;
-      margin-bottom: 14px;
-    }
-
-    .toc ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: grid;
-      gap: 10px;
-    }
-
-    .toc a {
-      display: block;
-      padding: 10px 12px;
-      text-decoration: none;
-      color: var(--soft);
-      border-radius: 12px;
-      background: rgba(255,255,255,0.02);
-      border: 1px solid transparent;
-    }
-
-    .toc a:hover {
-      border-color: var(--line);
-      background: rgba(255,255,255,0.04);
-    }
-
-    .content {
-      display: grid;
-      gap: 22px;
-    }
-
-    .card {
-      padding: 28px;
-    }
-
-    .card h2 {
-      font-size: clamp(1.5rem, 2.4vw, 2rem);
-      margin-bottom: 16px;
-    }
-
-    .card h3 {
-      font-size: 1.08rem;
-      margin-top: 24px;
-      margin-bottom: 10px;
-      color: var(--soft);
-    }
-
-    p {
-      margin: 0 0 14px;
-      color: var(--soft);
-    }
-
-    ul, ol {
-      margin: 0 0 14px 1.2rem;
-      color: var(--soft);
-    }
-
-    li + li { margin-top: 8px; }
-
-    .pill-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 14px;
-    }
-
-    .pill {
-      display: inline-flex;
-      align-items: center;
-      padding: 8px 12px;
-      border-radius: 999px;
-      border: 1px solid var(--line);
-      background: rgba(255,255,255,0.03);
-      color: var(--soft);
-      font-size: 0.95rem;
-    }
-
-    .grid-2 {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 16px;
-      margin-top: 16px;
-    }
-
-    .mini {
-      padding: 18px;
-      border-radius: var(--radius-sm);
-      background: var(--panel-2);
-      border: 1px solid var(--line);
-    }
-
-    .mini h4 {
-      font-size: 1rem;
-      margin-bottom: 10px;
-    }
-
-    .note {
-      padding: 20px;
-      margin-top: 18px;
-      background: linear-gradient(180deg, rgba(120,140,93,0.10), rgba(255,255,255,0.02));
-    }
-
-    .note strong {
-      color: #f6f2e8;
-    }
-
-    .callout {
-      border-left: 4px solid var(--orange);
-      padding-left: 14px;
-      margin: 18px 0;
-    }
-
-    .footer {
-      padding: 10px 0 64px;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    code {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      font-size: 0.92em;
-      color: #fff2ec;
-      background: rgba(217,119,87,0.12);
-      padding: 2px 6px;
-      border-radius: 8px;
-    }
-
-    @media (max-width: 960px) {
-      .hero-grid,
-      .layout,
-      .grid-2 {
-        grid-template-columns: 1fr;
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LLM Training Knowledge Base · Shekkizh Knowledge Base</title>
+    <meta
+      name="description"
+      content="A structured knowledge base distilled from handwritten notes on LLM training, post-training, evaluation, reasoning, tool use, multilingual behavior, and serving-time details."
+    />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #0b1020;
+        --card: #121933;
+        --text: #e8ecff;
+        --muted: #aab3d3;
+        --accent: #8ab4ff;
+        --border: #2a335e;
       }
-
+      @media (prefers-color-scheme: light) {
+        :root {
+          --bg: #f7f8fc;
+          --card: #ffffff;
+          --text: #17203a;
+          --muted: #5f6b8a;
+          --accent: #245bdb;
+          --border: #dbe2f2;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.65;
+      }
+      .wrap {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 48px 20px 80px;
+      }
+      h1, h2, h3 {
+        line-height: 1.2;
+      }
+      h1 {
+        margin-top: 0;
+        margin-bottom: 16px;
+      }
+      h2 {
+        margin: 0 0 14px;
+      }
+      h3 {
+        margin: 24px 0 10px;
+      }
+      p {
+        margin: 0 0 14px;
+      }
+      .hero,
+      .card,
+      .mini,
       .toc {
-        position: static;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 18px;
       }
-    }
-  </style>
-</head>
-<body>
-  <header class="hero">
-    <div class="wrap">
-      <div class="eyebrow">LLM training notes → cleaned knowledge base</div>
-      <div class="hero-grid">
-        <section>
-          <h1>LLM Training Knowledge Base</h1>
-          <p class="lede">
-            A structured, public-friendly report distilled from handwritten notes on post-training,
-            evaluation, reasoning, data quality, instruction following, multilingual capability,
-            tool use, long-context behavior, and serving-time constraints.
-          </p>
-          <div class="pill-row">
-            <span class="pill">Post-training</span>
-            <span class="pill">Evaluation</span>
-            <span class="pill">Reasoning</span>
-            <span class="pill">Data curation</span>
-            <span class="pill">Serving & templates</span>
-          </div>
-        </section>
-        <aside class="hero-card">
-          <ul class="meta-list">
-            <li>
-              <span class="label">Document type</span>
-              <span class="value">HTML report / knowledge base page</span>
-            </li>
-            <li>
-              <span class="label">Source quality</span>
-              <span class="value">Best-effort synthesis from handwritten notes; some terms may be ambiguous</span>
-            </li>
-            <li>
-              <span class="label">Audience</span>
-              <span class="value">Builders working on LLM training pipelines, post-training, and evaluation</span>
-            </li>
-            <li>
-              <span class="label">Positioning</span>
-              <span class="value">A cleaned conceptual map, not a literal transcript</span>
-            </li>
+      .hero {
+        padding: 28px;
+        margin-bottom: 28px;
+      }
+      .muted {
+        color: var(--muted);
+      }
+      .eyebrow {
+        display: inline-block;
+        font-size: 0.9rem;
+        color: var(--accent);
+        margin-bottom: 10px;
+      }
+      .layout {
+        display: grid;
+        grid-template-columns: 260px minmax(0, 1fr);
+        gap: 20px;
+        align-items: start;
+      }
+      .toc {
+        position: sticky;
+        top: 20px;
+        padding: 18px;
+      }
+      .toc ul {
+        margin: 0;
+        padding-left: 18px;
+      }
+      .toc li + li {
+        margin-top: 8px;
+      }
+      .content {
+        display: grid;
+        gap: 18px;
+      }
+      .card {
+        padding: 22px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 16px;
+      }
+      .mini {
+        padding: 18px;
+      }
+      ul, ol {
+        padding-left: 20px;
+        margin: 0 0 14px;
+      }
+      li + li {
+        margin-top: 8px;
+      }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      code {
+        background: rgba(127,127,127,0.12);
+        padding: 0.1rem 0.35rem;
+        border-radius: 6px;
+      }
+      .pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 18px;
+      }
+      .pill {
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        padding: 6px 12px;
+        font-size: 0.92rem;
+        color: var(--muted);
+      }
+      .callout {
+        border-left: 3px solid var(--accent);
+        padding-left: 14px;
+        margin: 18px 0;
+      }
+      .meta {
+        margin-top: 18px;
+        padding-top: 18px;
+        border-top: 1px solid var(--border);
+      }
+      .footer {
+        margin-top: 28px;
+        font-size: 0.95rem;
+      }
+      @media (max-width: 840px) {
+        .layout {
+          grid-template-columns: 1fr;
+        }
+        .toc {
+          position: static;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <div class="eyebrow">Research collection · LLM systems</div>
+        <h1>LLM Training Knowledge Base</h1>
+        <p class="muted">
+          A cleaned, public-facing synthesis of handwritten notes on LLM training. This page turns scattered raw ideas into
+          a structured map covering post-training, evaluation, reasoning, instruction following, tool use, multilingual
+          quality, long-context behavior, data curation, and serving-time reliability.
+        </p>
+        <div class="pill-row">
+          <span class="pill">Post-training</span>
+          <span class="pill">Evaluation</span>
+          <span class="pill">Reasoning</span>
+          <span class="pill">Function calling</span>
+          <span class="pill">Data quality</span>
+          <span class="pill">Serving</span>
+        </div>
+        <div class="meta muted">
+          Source basis: five handwritten note images. This page is a structured synthesis, not a literal transcript.
+        </div>
+      </section>
+
+      <section class="layout">
+        <nav class="toc" aria-label="Table of contents">
+          <h2>Contents</h2>
+          <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#post-training">Post-training priorities</a></li>
+            <li><a href="#evaluation">Evaluation stack</a></li>
+            <li><a href="#reasoning">Reasoning and RL</a></li>
+            <li><a href="#instruction">Instruction following</a></li>
+            <li><a href="#tools">Tool use and function calling</a></li>
+            <li><a href="#multilingual">Multilingual quality</a></li>
+            <li><a href="#context">Long-context and recall</a></li>
+            <li><a href="#data">Data mixing and decontamination</a></li>
+            <li><a href="#serving">Serving-time details</a></li>
+            <li><a href="#roadmap">Suggested roadmap</a></li>
           </ul>
-        </aside>
-      </div>
-    </div>
-  </header>
+        </nav>
 
-  <main class="wrap layout">
-    <nav class="toc" aria-label="Table of contents">
-      <h2>Contents</h2>
-      <ul>
-        <li><a href="#reading">How to read this page</a></li>
-        <li><a href="#post-training">1. Post-training priorities</a></li>
-        <li><a href="#evals">2. Evaluation stack</a></li>
-        <li><a href="#reasoning">3. Reasoning and reinforcement</a></li>
-        <li><a href="#chat">4. Instruction following and chat quality</a></li>
-        <li><a href="#tools">5. Tool use and function calling</a></li>
-        <li><a href="#multilingual">6. Multilingual capability</a></li>
-        <li><a href="#long-context">7. Long-context and recall</a></li>
-        <li><a href="#data">8. Data quality, contamination, and mixing</a></li>
-        <li><a href="#serving">9. Serving-time details</a></li>
-        <li><a href="#roadmap">10. Suggested training roadmap</a></li>
-      </ul>
-    </nav>
+        <div class="content">
+          <section id="overview" class="card">
+            <h2>Overview</h2>
+            <p>
+              The source notes point toward a practical view of LLM development: strong product behavior is often shaped more
+              by post-training and evaluation discipline than by raw pretraining scale alone. The important question is not
+              just whether the model knows more, but whether it is consistently useful, controllable, benchmark-honest,
+              tool-capable, and robust under real inference conditions.
+            </p>
+            <p>
+              This knowledge base organizes the notes around capability buckets so they can be reused as a training or
+              post-training checklist rather than staying trapped as unstructured scratch paper.
+            </p>
+          </section>
 
-    <div class="content">
-      <section id="reading" class="card">
-        <h2>How to read this page</h2>
-        <p>
-          These notes appear to span the practical parts of building a strong general-purpose LLM after base pretraining:
-          what to optimize in post-training, how to evaluate the model, how to improve reasoning, how to preserve
-          instruction-following and multilingual quality, and how serving constraints like chat templates and inference
-          engines can quietly affect outcomes.
-        </p>
-        <p>
-          The handwritten source material is noisy, so the right move is not a perfect transcription fetish. The right move
-          is to convert the notes into a durable mental model: <em>which capabilities matter, how they interact, and what a
-          sane implementation sequence looks like.</em>
-        </p>
-        <div class="note">
-          <strong>Interpretation rule:</strong> wherever the original notes were ambiguous, this page chooses a conceptually
-          coherent framing that matches common LLM training practice rather than pretending every token was legible.
-        </div>
-      </section>
+          <section id="post-training" class="card">
+            <h2>Post-training priorities</h2>
+            <p>
+              The notes strongly suggest that post-training should be treated as a multi-objective optimization problem. A
+              useful model needs reasoning quality, instruction following, response quality, tool correctness, and broad
+              capability retention at the same time.
+            </p>
+            <div class="grid">
+              <article class="mini">
+                <h3>Primary goals</h3>
+                <ul>
+                  <li>Improve reasoning on hard tasks</li>
+                  <li>Preserve or improve instruction following</li>
+                  <li>Support accurate function calling and tool use</li>
+                  <li>Maintain strong conversational output quality</li>
+                  <li>Avoid multilingual collapse</li>
+                </ul>
+              </article>
+              <article class="mini">
+                <h3>Common failure modes</h3>
+                <ul>
+                  <li>Benchmark chasing that hurts real-world usability</li>
+                  <li>RL gains that degrade style, formatting, or latency</li>
+                  <li>Tool-call regressions after reasoning-focused tuning</li>
+                  <li>Template/runtime mismatches at deployment time</li>
+                </ul>
+              </article>
+            </div>
+          </section>
 
-      <section id="post-training" class="card">
-        <h2>1. Post-training priorities</h2>
-        <p>
-          A recurring theme in the notes is that the most meaningful product behavior often emerges during post-training,
-          not just during base pretraining. The question is less “did the model memorize more internet text?” and more
-          “what qualities actually correlate with the outputs people care about?”
-        </p>
-        <div class="grid-2">
-          <div class="mini">
-            <h4>What matters most</h4>
+          <section id="evaluation" class="card">
+            <h2>Evaluation stack</h2>
+            <p>
+              Several benchmark names or fragments appear in the notes, including arena-style comparisons, hard knowledge or
+              reasoning evaluations, math-heavy tasks, and pass@k-style thinking for smaller sets. The clear takeaway is that
+              no single eval should dominate the training narrative.
+            </p>
             <ul>
-              <li>Reasoning reliability on hard tasks</li>
-              <li>Instruction following and refusal/control behavior</li>
-              <li>Function calling / tool-use accuracy</li>
-              <li>Response quality and conversational coherence</li>
-              <li>Multilingual retention</li>
+              <li><strong>Arena-Hard</strong> or related pairwise preference evaluations for broad quality comparison</li>
+              <li><strong>GPQA / hard reasoning-style benchmarks</strong> for difficult scientific or knowledge-heavy tasks</li>
+              <li><strong>MATH</strong> or similar structured reasoning evaluations</li>
+              <li><strong>Pass@k</strong> framing for stochastic or small-sample task settings</li>
             </ul>
-          </div>
-          <div class="mini">
-            <h4>What can go wrong</h4>
+            <div class="callout muted">
+              Best practice: split metrics by capability bucket instead of collapsing everything into one composite score.
+            </div>
+          </section>
+
+          <section id="reasoning" class="card">
+            <h2>Reasoning and RL</h2>
+            <p>
+              The notes appear to connect reasoning gains with reinforcement-style post-training, verifier or reward-guided
+              optimization, and DeepSeek-R1-like distinctions between zero-style RL and a supervised cold start.
+            </p>
             <ul>
-              <li>Over-optimizing for one benchmark while hurting broad utility</li>
-              <li>Reasoning improvements degrading style or latency</li>
-              <li>Data contamination inflating confidence in evals</li>
-              <li>Chat-template mismatches causing regressions at serving time</li>
+              <li>Cold-start supervised data can stabilize later RL</li>
+              <li>Pure RL-style reasoning gains may produce awkward or unstable behavior if left unchecked</li>
+              <li>Reward design matters: optimizing only final correctness can create brittle outputs</li>
+              <li>Reasoning quality should be measured alongside answer readability and utility</li>
             </ul>
-          </div>
-        </div>
-        <p class="callout">
-          Post-training should be treated as a <strong>multi-objective optimization problem</strong>: gains in reasoning,
-          style, tools, safety, and multilingual ability need balancing rather than isolated wins.
-        </p>
-      </section>
+          </section>
 
-      <section id="evals" class="card">
-        <h2>2. Evaluation stack</h2>
-        <p>
-          The notes reference a cluster of evals that together imply a broad evaluation philosophy: use multiple views of
-          model quality rather than trusting a single score.
-        </p>
-        <h3>Benchmarks explicitly or implicitly referenced</h3>
-        <ul>
-          <li><strong>Arena-Hard</strong> or arena-style preference evaluations for strong model-vs-model comparison</li>
-          <li><strong>GPQA / OLMES-style</strong> hard knowledge and reasoning evaluations</li>
-          <li><strong>MATH</strong> or math-heavy structured reasoning benchmarks</li>
-          <li><strong>Pass@k</strong> thinking for smaller or stochastic task sets</li>
-        </ul>
-        <h3>Why this matters</h3>
-        <ul>
-          <li>Preference-based evals capture real-world helpfulness better than narrow exact-match metrics alone</li>
-          <li>Hard reasoning evals expose whether RL or chain-of-thought improvements are real</li>
-          <li>Specialized task evals catch regressions hidden by aggregate averages</li>
-        </ul>
-        <div class="note">
-          <strong>Recommendation:</strong> split evals into capability buckets — reasoning, instruction following, tool use,
-          multilingual, long-context, and response quality — and track each bucket separately over training runs.
-        </div>
-      </section>
-
-      <section id="reasoning" class="card">
-        <h2>3. Reasoning and reinforcement</h2>
-        <p>
-          Several note fragments point toward reasoning-focused post-training, likely referencing GRM-like or RL-driven
-          approaches, DeepSeek-R1-style ideas, and the distinction between pure RL discovery versus a supervised cold start.
-        </p>
-        <h3>Core ideas</h3>
-        <ul>
-          <li><strong>Reasoning can be improved after pretraining</strong> with targeted supervised or reinforcement signals.</li>
-          <li><strong>Cold-start supervised data</strong> can stabilize downstream RL by giving the model a usable reasoning prior.</li>
-          <li><strong>Pure zero-style RL approaches</strong> may surface strong behavior but can be unstable, weirdly formatted, or hard to control.</li>
-          <li><strong>Reward design matters</strong>: optimizing only for final answer correctness can produce brittle or hacked behavior.</li>
-        </ul>
-        <div class="grid-2">
-          <div class="mini">
-            <h4>Likely note themes</h4>
+          <section id="instruction" class="card">
+            <h2>Instruction following and response quality</h2>
+            <p>
+              A strong model should not only solve hard tasks but also obey constraints, maintain structure, produce the
+              expected format, and communicate cleanly. The notes seem to explicitly treat instruction following as a core
+              target, which is the right framing for assistant-style systems.
+            </p>
             <ul>
-              <li>GRM / reward-model or verifier-assisted optimization</li>
-              <li>R1-Zero vs supervised warm start</li>
-              <li>Reasoning quality versus readability trade-offs</li>
-              <li>Small-set evaluation via pass@k</li>
+              <li>Follow explicit constraints without drifting into over-refusal</li>
+              <li>Preserve formatting, schema, and style requirements</li>
+              <li>Improve naturalness of responses without sacrificing precision</li>
+              <li>Track response quality separately from benchmark accuracy</li>
             </ul>
-          </div>
-          <div class="mini">
-            <h4>Practical takeaway</h4>
+          </section>
+
+          <section id="tools" class="card">
+            <h2>Tool use and function calling</h2>
+            <p>
+              Tool use appears as an explicit category in the notes. That matters because function calling often breaks when
+              teams optimize only for free-form reasoning or preference wins.
+            </p>
             <ul>
-              <li>Use a supervised seed before aggressive RL</li>
-              <li>Evaluate both correctness and answer usability</li>
-              <li>Watch for style collapse, verbosity drift, or tool-call breakage</li>
+              <li>Train structured tool selection and argument formatting directly</li>
+              <li>Evaluate exact schema adherence, not just rough intent</li>
+              <li>Test multi-turn tool use under ambiguity and partial context</li>
+              <li>Protect tool reliability through later post-training stages</li>
             </ul>
-          </div>
-        </div>
-      </section>
+          </section>
 
-      <section id="chat" class="card">
-        <h2>4. Instruction following and chat quality</h2>
-        <p>
-          The source notes seem to treat instruction following as a first-class capability, not a side effect. That is the
-          correct instinct. Many otherwise strong models fail in deployment because they reason well but obey poorly,
-          ramble, misformat, or fail to preserve user intent.
-        </p>
-        <h3>Key goals</h3>
-        <ul>
-          <li>Follow explicit constraints without over-refusing</li>
-          <li>Generate answers in the expected shape, tone, and schema</li>
-          <li>Preserve high-quality conversational writing after reasoning optimization</li>
-          <li>Improve “oral” or natural-language fluency where outputs feel stiff or synthetic</li>
-        </ul>
-        <p>
-          This suggests a training mix that includes both instruction-tuning data and preference signals about response
-          quality, brevity, directness, and usefulness.
-        </p>
-      </section>
-
-      <section id="tools" class="card">
-        <h2>5. Tool use and function calling</h2>
-        <p>
-          Tool use is called out explicitly in the notes, which is a good sign: function calling often regresses when teams
-          chase reasoning gains without maintaining structured-action behavior.
-        </p>
-        <ul>
-          <li>Train tool selection and argument formatting explicitly</li>
-          <li>Evaluate exact schema adherence, not just semantic intent</li>
-          <li>Test tool behavior under multi-turn context, ambiguity, and partial information</li>
-          <li>Protect tool reliability during RL and style tuning</li>
-        </ul>
-        <div class="callout">
-          If a model becomes “smarter” but starts emitting malformed calls, the user experience still got worse.
-        </div>
-      </section>
-
-      <section id="multilingual" class="card">
-        <h2>6. Multilingual capability</h2>
-        <p>
-          Multilingual performance appears in the notes as a distinct concern, which usually means the author noticed a real
-          pattern: post-training can easily narrow a model into English-centric chat behavior unless multilingual examples are
-          intentionally preserved.
-        </p>
-        <ul>
-          <li>Keep multilingual supervised data in the post-training mixture</li>
-          <li>Benchmark across representative languages, not just translated English tasks</li>
-          <li>Check whether reward models or preference data are implicitly English-biased</li>
-        </ul>
-      </section>
-
-      <section id="long-context" class="card">
-        <h2>7. Long-context and recall</h2>
-        <p>
-          Another visible topic is long-context handling — likely around recall, instruction persistence, and performance
-          degradation over longer prompts. This area deserves its own eval bucket because many models look strong in short
-          contexts but fail once retrieval burden and distraction increase.
-        </p>
-        <ul>
-          <li>Measure retrieval fidelity, not just max context window size</li>
-          <li>Test instruction persistence deep into context</li>
-          <li>Separate “needle retrieval” from actual synthesis across long documents</li>
-        </ul>
-      </section>
-
-      <section id="data" class="card">
-        <h2>8. Data quality, contamination, and mixing</h2>
-        <p>
-          Some of the clearest operational notes concern data curation: decontamination, data mixing, smaller datasets,
-          and supervised seeds. That cluster matters because post-training quality is heavily determined by what you mix,
-          what you exclude, and how cleanly your evals are isolated from training exposure.
-        </p>
-        <h3>Data system principles</h3>
-        <ul>
-          <li><strong>Decontaminate aggressively</strong> for benchmark integrity</li>
-          <li><strong>Track mixture weights</strong> for reasoning, chat, tools, multilingual, and safety data</li>
-          <li><strong>Use smaller high-quality sets carefully</strong> and evaluate with pass@k where stochasticity matters</li>
-          <li><strong>Prefer explicit dataset taxonomies</strong> over giant undifferentiated training blobs</li>
-        </ul>
-        <div class="grid-2">
-          <div class="mini">
-            <h4>Good questions to ask</h4>
+          <section id="multilingual" class="card">
+            <h2>Multilingual quality</h2>
+            <p>
+              Multilingual behavior is likely called out because post-training can easily overfit to English-centric assistant
+              behavior. If multilingual quality matters, it needs explicit representation in both the data mixture and the
+              eval suite.
+            </p>
             <ul>
-              <li>Which data bucket caused the gain?</li>
-              <li>Which capability regressed?</li>
-              <li>Is the win real or contamination-driven?</li>
+              <li>Keep multilingual supervised examples in the post-training mixture</li>
+              <li>Evaluate across representative languages, not just translated prompts</li>
+              <li>Check whether preference signals are implicitly biased toward English outputs</li>
             </ul>
-          </div>
-          <div class="mini">
-            <h4>Good artifacts to keep</h4>
+          </section>
+
+          <section id="context" class="card">
+            <h2>Long-context and recall</h2>
+            <p>
+              The notes also point to long-context performance, likely around retrieval fidelity, instruction persistence, and
+              degradation in longer windows. Max context length alone is not a meaningful success metric.
+            </p>
             <ul>
-              <li>Mixture manifests</li>
-              <li>Benchmark exclusion lists</li>
-              <li>Per-capability scorecards</li>
-              <li>Template and tokenizer compatibility notes</li>
+              <li>Measure retrieval accuracy inside long contexts</li>
+              <li>Check instruction persistence after large distractor spans</li>
+              <li>Separate recall tasks from true synthesis across long documents</li>
             </ul>
-          </div>
+          </section>
+
+          <section id="data" class="card">
+            <h2>Data mixing, decontamination, and smaller sets</h2>
+            <p>
+              Some of the most operationally important notes concern the training mixture itself: decontamination, smaller but
+              high-quality datasets, supervised warm starts, and preserving the right balance across capability areas.
+            </p>
+            <ul>
+              <li>Decontaminate aggressively for benchmark integrity</li>
+              <li>Track mixture weights across reasoning, tools, multilingual, and chat data</li>
+              <li>Use smaller curated datasets carefully and evaluate them with the right sampling logic</li>
+              <li>Prefer explicit dataset taxonomies over a single undifferentiated blob</li>
+            </ul>
+          </section>
+
+          <section id="serving" class="card">
+            <h2>Serving-time details</h2>
+            <p>
+              The notes mention chat templates and vLLM compatibility, which is exactly the kind of implementation detail that
+              causes silent quality regressions. Training-time and inference-time formatting assumptions need to match.
+            </p>
+            <ul>
+              <li>Align training and serving chat templates</li>
+              <li>Validate tool formatting in the actual runtime stack</li>
+              <li>Document BOS/EOS and special-token assumptions</li>
+              <li>Test the model in the target inference engine before calling a run successful</li>
+            </ul>
+          </section>
+
+          <section id="roadmap" class="card">
+            <h2>Suggested roadmap</h2>
+            <ol>
+              <li>Define capability buckets: reasoning, chat, tools, multilingual, long-context, safety.</li>
+              <li>Build the evaluation suite first so every training run is interpretable.</li>
+              <li>Create a supervised post-training seed with high-quality formatting and instruction-following behavior.</li>
+              <li>Add reasoning optimization while monitoring regressions outside reasoning benchmarks.</li>
+              <li>Decontaminate and rebalance the data mixture whenever gains look narrow or suspicious.</li>
+              <li>Validate the model using the exact chat template and inference stack intended for deployment.</li>
+            </ol>
+            <p class="muted">
+              In short: don’t optimize for a single impressive score. Optimize for a reliable system.
+            </p>
+          </section>
         </div>
       </section>
 
-      <section id="serving" class="card">
-        <h2>9. Serving-time details: chat templates and inference stacks</h2>
-        <p>
-          The notes mention chat templates and vLLM compatibility, which is exactly the sort of “small” detail that causes
-          surprisingly large regressions. A good model can look broken when the serving template differs from the training
-          template, or when stop tokens and tool-call wrappers are inconsistent.
-        </p>
-        <ul>
-          <li>Keep training and inference chat templates aligned</li>
-          <li>Validate tool-call formatting under the actual serving stack</li>
-          <li>Test with vLLM or your target runtime before declaring a run successful</li>
-          <li>Document tokenizer, BOS/EOS, and special-token assumptions</li>
-        </ul>
-        <div class="note">
-          <strong>Rule of thumb:</strong> model quality is not just weights + data; it is weights + data + template + runtime.
-        </div>
-      </section>
-
-      <section id="roadmap" class="card">
-        <h2>10. Suggested implementation roadmap</h2>
-        <p>
-          If these notes are meant to drive a real training effort, the cleanest execution path is a staged one.
-        </p>
-        <ol>
-          <li><strong>Define capability buckets</strong>: reasoning, chat, tools, multilingual, long-context, safety.</li>
-          <li><strong>Build the eval suite first</strong>: Arena-Hard-style preference evals, hard reasoning sets, tool-use tests, multilingual checks, long-context checks.</li>
-          <li><strong>Create a supervised post-training seed</strong> with strong formatting, tool usage, and instruction-following examples.</li>
-          <li><strong>Add reasoning optimization</strong> via verifier/reward-model/RL methods, while tracking regressions in other buckets.</li>
-          <li><strong>Decontaminate and rebalance</strong> if wins look suspicious or narrow.</li>
-          <li><strong>Validate in the real serving stack</strong> with the exact chat template and inference engine intended for deployment.</li>
-        </ol>
-        <p>
-          That roadmap matches the spirit of the notes: don’t chase a single magic trick. Build a system where reasoning,
-          usefulness, and deployment reliability improve together.
-        </p>
-      </section>
-    </div>
-  </main>
-
-  <footer class="wrap footer">
-    <p>
-      This page is a cleaned synthesis of handwritten LLM training notes. It is intentionally structured as a reusable
-      knowledge base rather than a raw scan or literal transcript.
-    </p>
-  </footer>
-</body>
+      <p class="footer muted">
+        <a href="index.html">← Back to the main knowledge base index</a>
+      </p>
+    </main>
+  </body>
 </html>
